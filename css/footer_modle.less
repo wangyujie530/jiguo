@@ -1,0 +1,73 @@
+//临时样式
+.linshi{
+    width: 100%;
+    height: 300px;
+    .bak(yellow)
+}
+
+
+//默认样式
+*{
+    margin: 0;
+}
+footer{
+    //li字体颜色
+    li{    
+        color: #8d8d8b;
+    }
+}
+ul,li{
+    list-style: none;
+}
+
+
+//宽高变量
+.WH(@W,@H){
+    width: @W;
+    height: @H;
+}
+//背景颜色
+.bak(@bak){
+    background-color: @bak;
+}
+//定位
+.pr(@rt:0px,@rl:0px){
+    position: relative;
+    top: @rt;
+    left: @rl;
+}
+.pa(@at:0px,@al:0px){
+    position: absolute;
+    top: @at;
+    left: @al;
+}
+.TL(@ft,@fl){
+    top: @ft;
+    left: @fl;
+}
+//正式样式
+.foot_out{
+    margin: 0 auto;
+    .foot_all{
+        margin: 0 auto;
+        .WH(1423px,360px);
+        .bak(#505050);
+        .dv1{
+            .TL(40px,212px);
+            .WH(160px,160px);
+            .pr(40px,212px);
+            img{
+                .WH(160px,160px);
+            }
+        }
+        .dv2{
+            .WH(131px,161px);
+            .pr();
+            ul{
+                li:nth-child(1){
+                    .pa(40px,394px);
+                }
+            }
+        }
+    }
+}

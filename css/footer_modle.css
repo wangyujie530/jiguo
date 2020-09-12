@@ -1,0 +1,47 @@
+.linshi {
+  width: 100%;
+  height: 300px;
+  background-color: yellow;
+}
+* {
+  margin: 0;
+}
+footer li {
+  color: #8d8d8b;
+}
+ul,
+li {
+  list-style: none;
+}
+.foot_out {
+  margin: 0 auto;
+}
+.foot_out .foot_all {
+  margin: 0 auto;
+  width: 1423px;
+  height: 360px;
+  background-color: #505050;
+}
+.foot_out .foot_all .dv1 {
+  width: 160px;
+  height: 160px;
+  position: relative;
+  top: 40px;
+  left: 212px;
+}
+.foot_out .foot_all .dv1 img {
+  width: 160px;
+  height: 160px;
+}
+.foot_out .foot_all .dv2 {
+  width: 131px;
+  height: 161px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.foot_out .foot_all .dv2 ul li:nth-child(1) {
+  position: absolute;
+  top: 40px;
+  left: 394px;
+}
