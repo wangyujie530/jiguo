@@ -51,11 +51,13 @@ header .divs_ div span {
   width: 50px;
   height: 30px;
   border: 1px solid #f65340;
-  color: #f65340;
   font-size: 14px;
   text-align: center;
   border-radius: 4%;
   line-height: 30px;
   margin-top: 20px;
   margin-left: 30px;
+}
+header .divs_ div span a {
+  color: #f65340;
 }
