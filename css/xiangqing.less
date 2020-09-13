@@ -1,0 +1,51 @@
+
+
+//默认样式
+*{
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+
+
+//宽高变量
+.WH(@W:100%,@H:100%){
+    width: @W;
+    height: @H;
+}
+//背景颜色
+.bak(@bak){
+    background-color: @bak;
+}
+//定位
+.pr(@rt:0px,@rl:0px){
+    position: relative;
+    top: @rt;
+    left: @rl;
+}
+.pa(@at:0px,@al:0px){
+    position: absolute;
+    top: @at;
+    left: @al;
+}
+.TL(@ft:0px,@fl:0px){
+    top: @ft;
+    left: @fl;
+}
+
+//正式样式
+section{
+    .out{
+        margin: 0 auto;
+        .bak(#f7f7f7);
+        .head{
+            .WH(340px,12px);
+            li{
+                font-size: 12px;
+                color:#a5a4a0;
+                float: left;
+            }
+        }
+    }
+}

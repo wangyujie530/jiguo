@@ -1,113 +1,113 @@
 * {
   margin: 0;
 }
-footer ul,
-footer li {
+ul,
+li {
   list-style: none;
 }
-footer li {
-  color: #8d8d8b;
-}
-footer h3 {
-  color: white;
-}
-.foot_out {
+footer .foot_out {
   margin: 0 auto;
   background-color: #505050;
 }
-.foot_out .foot_all {
+footer .foot_out .foot_all {
   margin: 0 auto;
   width: 1423px;
   height: 380px;
   position: relative;
 }
-.foot_out .foot_all div {
+footer .foot_out .foot_all div {
   position: absolute;
   top: 0px;
   left: 0px;
 }
-.foot_out .foot_all .dv1 {
+footer .foot_out .foot_all div h3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 75px;
+  height: 26px;
+  color: white;
+}
+footer .foot_out .foot_all div ul li {
+  font-size: 14px;
+  color: #8d8d8b;
+}
+footer .foot_out .foot_all .dv1 {
+  top: 40px;
+  left: 180px;
   width: 160px;
   height: 160px;
-  top: 40px;
-  left: 170px;
 }
-.foot_out .foot_all .dv1 img {
+footer .foot_out .foot_all .dv1 img {
   width: 160px;
   height: 160px;
 }
-.foot_out .foot_all .dv2 {
+footer .foot_out .foot_all .dv2 {
   top: 40px;
-  left: 350px;
+  left: 370px;
   width: 132px;
   height: 130px;
 }
-.foot_out .foot_all .dv2 ul li {
+footer .foot_out .foot_all .dv2 ul li {
   width: 160px;
   height: 40px;
 }
-.foot_out .foot_all .dv2 ul li:nth-child(2) {
+footer .foot_out .foot_all .dv2 ul li:nth-child(2) {
   margin-top: 26px;
 }
-.foot_out .foot_all .dv2 ul li:nth-child(3) {
+footer .foot_out .foot_all .dv2 ul li:nth-child(3) {
   margin-top: 15px;
 }
-.foot_out .foot_all .dv2 ul li:nth-child(4) {
+footer .foot_out .foot_all .dv2 ul li:nth-child(4) {
   margin-top: -20px;
 }
-.foot_out .foot_all .dv3 {
+footer .foot_out .foot_all .dv3 {
   top: 40px;
-  left: 530px;
+  left: 550px;
   width: 152px;
   height: 100px;
 }
-.foot_out .foot_all .dv3 ul li:nth-child(2) {
-  margin-top: 30px;
+footer .foot_out .foot_all .dv3 ul li:nth-child(1) {
+  margin-top: 55px;
 }
-.foot_out .foot_all .dv4 {
+footer .foot_out .foot_all .dv4 {
   top: 40px;
-  left: 660px;
+  left: 680px;
   width: 200px;
   height: 180px;
 }
-.foot_out .foot_all .dv4 h3 {
-  position: absolute;
-  top: 0;
-  left: 40px;
-  width: 80px;
-  height: 20px;
-}
-.foot_out .foot_all .dv4 ul {
+footer .foot_out .foot_all .dv4 ul {
   position: absolute;
   top: 52px;
   left: 0px;
 }
-.foot_out .foot_all .dv4 ul li {
+footer .foot_out .foot_all .dv4 ul li {
   float: left;
   width: 80px;
   height: 22px;
 }
-.foot_out .foot_all .dv5 {
+footer .foot_out .foot_all .dv5 {
   top: 40px;
-  left: 840px;
+  left: 860px;
 }
-.foot_out .foot_all .dv5 li:nth-child(2) {
-  margin-top: 24px;
+footer .foot_out .foot_all .dv5 li:nth-child(1) {
+  margin-top: 50px;
 }
-.foot_out .foot_all .dv6 {
+footer .foot_out .foot_all .dv6 {
   top: 40px;
-  left: 1040px;
+  left: 1060px;
 }
-.foot_out .foot_all .dv6 ul li:nth-child(2) {
-  margin-top: 24px;
+footer .foot_out .foot_all .dv6 ul li:nth-child(1) {
+  margin-top: 50px;
 }
-.foot_out .foot_all p {
+footer .foot_out .foot_all p {
   width: 160px;
   height: 20px;
   margin: 0 auto;
   color: #8d8d8b;
 }
-.foot_out .foot_all p span {
+footer .foot_out .foot_all p span {
+  font-size: 14px;
   position: relative;
   top: 320px;
   left: 0px;

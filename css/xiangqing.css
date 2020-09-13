@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+section .out {
+  margin: 0 auto;
+  background-color: #f7f7f7;
+}
+section .out .head {
+  width: 340px;
+  height: 12px;
+}
+section .out .head li {
+  font-size: 12px;
+  color: #a5a4a0;
+  float: left;
+}

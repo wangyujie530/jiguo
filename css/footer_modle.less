@@ -1,138 +1,136 @@
-//临时样式
-// .linshi{
-//     width: 100%;
-//     height: 900px;
-//     .bak(yellow)
-// }
 
 
 //默认样式
 *{
     margin: 0;
 }
+ul,li{
+    list-style: none;
+}
+
+
+//尾部包裹所有css
 footer{
-    //字体样式
-    ul,li{
-        list-style: none;
+    
+    //宽高变量
+    .WH(@W:100%,@H:100%){
+        width: @W;
+        height: @H;
     }
-    li{    
-        color: #8d8d8b;
+    //背景颜色
+    .bak(@bak){
+        background-color: @bak;
     }
-    h3{
-         color: white;
-    }
-}
-
-
-//宽高变量
-.WH(@W:100%,@H:100%){
-    width: @W;
-    height: @H;
-}
-//背景颜色
-.bak(@bak){
-    background-color: @bak;
-}
-//定位
-.pr(@rt:0px,@rl:0px){
-    position: relative;
-    top: @rt;
-    left: @rl;
-}
-.pa(@at:0px,@al:0px){
-    position: absolute;
-    top: @at;
-    left: @al;
-}
-.TL(@ft:0px,@fl:0px){
-    top: @ft;
-    left: @fl;
-}
-.mar(@mt:0px,@ml:0px){
-    margin-top: @mt;
-    margin-left: @ml;
-}
-//正式样式
-.foot_out{
-    margin: 0 auto;
-    .bak(#505050);
-    .foot_all{
-        margin: 0 auto;
-        .WH(1423px,380px);
+    //定位
+    .pr(@rt:0px,@rl:0px){
         position: relative;
-        div{
-            .pa();
-        }
-        .dv1{
-            .WH(160px,160px);
-            .TL(40px,170px);
-            img{
-                .WH(160px,160px);
-            }
-        }
-        .dv2{
-            .TL(40px,350px);
-            .WH(132px,130px);
-            ul{
-                li{
-                    .WH(160px,40px);
-                }
-                li:nth-child(2){
-                    margin-top: 26px;
-                }
-                li:nth-child(3){
-                    margin-top: 15px;
-                }
-                li:nth-child(4){
-                    margin-top: -20px;
-                }
-            }
-        }
-        .dv3{
-            .TL(40px,530px);
-            .WH(152px,100px);
-            ul{
-                li:nth-child(2){
-                    margin-top: 30px;
-                }
-            }
-        }
-        .dv4{
-            .TL(40px,660px);
-            .WH(200px,180px);
-            h3{
-                .pa(0,40px);
-                .WH(80px,20px);
-            }
-            ul{
-                .pa(52px,0px);
-                li{
-                    float: left;
-                    .WH(80px,22px);
-                }
-            }
-        }
-        .dv5{
-            .TL(40px,840px);
-            li:nth-child(2){
-                margin-top: 24px;
-            }
-        }
-        .dv6{
-            .TL(40px,1040px);
-            ul{
-                li:nth-child(2){
-                    margin-top: 24px;
-                }
-            }
-        }
-        p{
-            .WH(160px,20px);
+        top: @rt;
+        left: @rl;
+    }
+    .pa(@at:0px,@al:0px){
+        position: absolute;
+        top: @at;
+        left: @al;
+    }
+    .TL(@ft:0px,@fl:0px){
+        top: @ft;
+        left: @fl;
+    }
+    .mar(@mt:0px,@ml:0px){
+        margin-top: @mt;
+        margin-left: @ml;
+    }
+    //正式样式
+    .foot_out{
+        margin: 0 auto;
+        .bak(#505050);
+        .foot_all{
             margin: 0 auto;
-            color: #8d8d8b;
-            span{
-                position: relative;
-                .TL(320px,0px);
+            .WH(1423px,380px);
+            position: relative;
+            div{
+                .pa();
+                h3{
+                    .pa(0px,0px);
+                    .WH(75px,26px);
+                    color: white;
+                }
+                ul{
+                    //li样式
+                    li{    
+                        font-size: 14px;
+                        color: #8d8d8b;
+                    }
+                }
+            }
+            .dv1{
+                .TL(40px,180px);
+                .WH(160px,160px);
+                img{
+                    .WH(160px,160px);
+                }
+            }
+            .dv2{
+                .TL(40px,370px);
+                .WH(132px,130px);
+                ul{
+                    li{
+                        .WH(160px,40px);
+                    }
+                    li:nth-child(2){
+                        margin-top: 26px;
+                    }
+                    li:nth-child(3){
+                        margin-top: 15px;
+                    }
+                    li:nth-child(4){
+                        margin-top: -20px;
+                    }
+                }
+            }
+            .dv3{
+                .TL(40px,550px);
+                .WH(152px,100px);
+                ul{
+                    li:nth-child(1){
+                        margin-top: 55px;
+                    }
+                }
+            }
+            .dv4{
+                .TL(40px,680px);
+                .WH(200px,180px);
+                ul{
+                    .pa(52px,0px);
+                    li{
+                        float: left;
+                        .WH(80px,22px);
+                    }
+                }
+            }
+            .dv5{
+                .TL(40px,860px);
+                li:nth-child(1){
+                    margin-top: 50px;
+                }
+            }
+            .dv6{
+                .TL(40px,1060px);
+                ul{
+                    li:nth-child(1){
+                        margin-top: 50px;
+                    }
+                }
+            }
+            p{
+                .WH(160px,20px);
+                margin: 0 auto;
+                color: #8d8d8b;
+                span{
+                    font-size: 14px;
+                    position: relative;
+                    .TL(320px,0px);
+                }
             }
         }
     }
