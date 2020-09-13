@@ -1,6 +1,3 @@
-* {
-  margin: 0;
-}
 footer ul,
 footer li {
   list-style: none;
@@ -30,7 +27,7 @@ footer h3 {
   width: 160px;
   height: 160px;
   top: 40px;
-  left: 170px;
+  left: 110px;
 }
 .foot_out .foot_all .dv1 img {
   width: 160px;
