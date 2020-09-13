@@ -1,0 +1,82 @@
+.post(r){
+    position: relative;
+}
+.post(a){
+    position: absolute;
+}
+.post(f){
+    position: fixed;
+}
+.post(o){
+    overflow: hidden;
+}
+.mar(a){
+    margin: auto;
+}
+.mar(r, @lpx) {
+    margin-right: @lpx;
+}
+.mar(l, @lpx) {
+    margin-left: @lpx;
+}
+.mar(t, @lpx) {
+    margin-top: @lpx;
+}
+.mar(b, @lpx) {
+    margin-bottom: @lpx;
+}
+.back{
+     background-color:#f3f3f3;
+}
+.borde{
+    border-radius: 6px;
+}
+section{
+    width: 1000px;
+    .mar(a);
+    .post(r);
+    top: 50px;
+    
+    .section_1{
+        width: 270px;
+        height: 320px;
+        .post(a);
+       .back;
+       .borde;
+       .section_li_1{
+           height: 36px;
+           width: 230px;
+           border-bottom: 1px solid #a3a3a3;
+           .mar(l,21px);
+           h1{
+               .mar(t, 8px);
+               .mar(l, 20px);
+           }
+       }
+       li{
+          h3 {
+            .mar(l, 41px);
+            .mar(t,16px);
+            } 
+            p{
+                .mar(l,50px);
+                .mar(t,12px);
+            }
+       }
+        
+    }
+    
+    .section_2{
+        width: 700px;
+        height: 1000px;
+        .post(a);
+        right: 0px;
+        top: 0px;
+        .back;
+        .borde;
+        .section_2_ul {
+            .mar(l,30px);
+            .mar(r,30px)
+        }
+    }
+}
