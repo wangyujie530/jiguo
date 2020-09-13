@@ -71,6 +71,9 @@ footer h3 {
   height: 180px;
 }
 .foot_out .foot_all .dv4 h3 {
+  position: absolute;
+  top: 0;
+  left: 40px;
   width: 80px;
   height: 20px;
 }
