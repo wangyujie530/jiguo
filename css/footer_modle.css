@@ -37,10 +37,10 @@ footer h3 {
   height: 160px;
 }
 .foot_out .foot_all .dv2 {
+  top: 40px;
+  left: 350px;
   width: 132px;
   height: 130px;
-  top: 40px;
-  left: 310px;
 }
 .foot_out .foot_all .dv2 ul li {
   width: 160px;
@@ -57,7 +57,7 @@ footer h3 {
 }
 .foot_out .foot_all .dv3 {
   top: 40px;
-  left: 480px;
+  left: 530px;
   width: 152px;
   height: 100px;
 }
@@ -66,14 +66,11 @@ footer h3 {
 }
 .foot_out .foot_all .dv4 {
   top: 40px;
-  left: 620px;
+  left: 660px;
   width: 200px;
   height: 180px;
 }
 .foot_out .foot_all .dv4 h3 {
-  position: absolute;
-  top: 0;
-  left: 40px;
   width: 80px;
   height: 20px;
 }
@@ -89,14 +86,14 @@ footer h3 {
 }
 .foot_out .foot_all .dv5 {
   top: 40px;
-  left: 800px;
+  left: 840px;
 }
 .foot_out .foot_all .dv5 li:nth-child(2) {
   margin-top: 24px;
 }
 .foot_out .foot_all .dv6 {
   top: 40px;
-  left: 1000px;
+  left: 1040px;
 }
 .foot_out .foot_all .dv6 ul li:nth-child(2) {
   margin-top: 24px;
