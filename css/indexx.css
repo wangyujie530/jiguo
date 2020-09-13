@@ -1,0 +1,44 @@
+.borde {
+  border-radius: 6px;
+}
+section .section_img {
+  height: 300px;
+  background: url(img/original.jpg) no-repeat center center;
+}
+section .section_ir {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+  top: 45px;
+}
+section .section_ir .section_dnh {
+  width: 320px;
+  height: 210px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+section .section_ir .section_dnh li {
+  color: white;
+  float: right;
+}
+section .section_ir .section_dnh li div {
+  display: inline-block;
+  font-size: 14px;
+  margin: 24px 10px;
+  padding: 0px 6px;
+  line-height: 36px;
+  text-align: center;
+  background-color: #f8d198;
+}
+section .section_ir .section_dnh .button {
+  cursor: pointer;
+  margin-top: 20px;
+  width: 244px;
+  height: 50px;
+  color: white;
+  background-color: #fe5341;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 50px;
+}
