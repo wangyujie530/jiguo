@@ -16,16 +16,16 @@ section{
         height: @H;
     }
     //背景颜色
-    .bak(@bak){
+    .BAK(@bak){
         background-color: @bak;
     }
     //定位
-    .pr(@rt:0px,@rl:0px){
+    .PR(@rt:0px,@rl:0px){
         position: relative;
         top: @rt;
         left: @rl;
     }
-    .pa(@at:0px,@al:0px){
+    .PA(@at:0px,@al:0px){
         position: absolute;
         top: @at;
         left: @al;
@@ -37,9 +37,9 @@ section{
 
     //正式样式
     .section{
-        .bak(#f7f7f7);
+        .BAK(#f7f7f7);
         .out{
-            .pr(0,340px);
+            .PR(0,340px);
             .WH(700px,auto);
             .head{
                 .WH(300px,36px);
@@ -51,7 +51,7 @@ section{
                 }
             }
             .body{
-                .bak(#fffdff);
+                .BAK(#ffffff);
                 .b_div1{
                     border-bottom: 1px solid #dfdfdf;
                     .WH(700px,130px);
@@ -65,19 +65,66 @@ section{
                         color: #a5a4a0;
                     }
                     p:nth-child(3){
-                        .pr(-16px,600px);
+                        .PR(-16px,600px);
                         font-size: 11px;
                         color: #a5a4a0;
                     }
                 }
                 .b_div2{
-                    .WH(700px,1000px);
+                    .WH(700px,4710px);
                     ul{
                         li{
                             margin: 22px;
                             .WH(650px,auto);
                             font-size: 14px;
+                            line-height: 20px;
                         }
+                        li:nth-child(3),
+                        li:nth-child(8),
+                        li:nth-child(17){
+                            text-align: center;
+                        }
+                        li:nth-child(21),
+                        li:nth-child(23),
+                        li:nth-child(25){
+                            margin-top: -20px;
+                        }
+                        li:nth-child(28){
+                            .WH(650px,14px);
+                            margin-top: 80px;
+                            color: #9d969e;
+                        }
+                        li:nth-child(29){
+                            .WH(650px,20px);
+                            margin-top: -10px;
+                            color: #9d969e;
+                        }
+                    }
+                }
+            }
+        }
+        .right{
+            .WH(250px,110px);
+            .BAK(#ffffff);
+            .PR(-4903px,1080px);
+            box-shadow: 2px 2px 2px 2px  #ebebeb;
+            ul{
+                box-sizing: border-box;
+                li{
+                    .WH(123px,110px);
+                    float: left;
+                }
+                li:nth-child(1),
+                li:nth-child(2){
+                    border-right: 1px #ebebeb solid;
+                    text-align: center;
+                    img{
+                        margin-top: 30px;
+                    }
+                }
+                li:nth-child(2){
+                    img{
+                        margin-top: 34px;
                     }
                 }
             }

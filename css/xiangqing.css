@@ -26,7 +26,7 @@ section .section .out .head li {
   float: left;
 }
 section .section .out .body {
-  background-color: #fffdff;
+  background-color: #ffffff;
 }
 section .section .out .body .b_div1 {
   border-bottom: 1px solid #dfdfdf;
@@ -51,11 +51,63 @@ section .section .out .body .b_div1 p:nth-child(3) {
 }
 section .section .out .body .b_div2 {
   width: 700px;
-  height: 1000px;
+  height: 4710px;
 }
 section .section .out .body .b_div2 ul li {
   margin: 22px;
   width: 650px;
   height: auto;
   font-size: 14px;
+  line-height: 20px;
+}
+section .section .out .body .b_div2 ul li:nth-child(3),
+section .section .out .body .b_div2 ul li:nth-child(8),
+section .section .out .body .b_div2 ul li:nth-child(17) {
+  text-align: center;
+}
+section .section .out .body .b_div2 ul li:nth-child(21),
+section .section .out .body .b_div2 ul li:nth-child(23),
+section .section .out .body .b_div2 ul li:nth-child(25) {
+  margin-top: -20px;
+}
+section .section .out .body .b_div2 ul li:nth-child(28) {
+  width: 650px;
+  height: 14px;
+  margin-top: 80px;
+  color: #9d969e;
+}
+section .section .out .body .b_div2 ul li:nth-child(29) {
+  width: 650px;
+  height: 20px;
+  margin-top: -10px;
+  color: #9d969e;
+}
+section .section .right {
+  width: 250px;
+  height: 110px;
+  background-color: #ffffff;
+  position: relative;
+  top: -4903px;
+  left: 1080px;
+  box-shadow: 2px 2px 2px 2px #ebebeb;
+}
+section .section .right ul {
+  box-sizing: border-box;
+}
+section .section .right ul li {
+  width: 123px;
+  height: 110px;
+  float: left;
+}
+section .section .right ul li:nth-child(1),
+section .section .right ul li:nth-child(2) {
+  border-right: 1px #ebebeb solid;
+  text-align: center;
+}
+section .section .right ul li:nth-child(1) img,
+section .section .right ul li:nth-child(2) img {
+  margin-top: 30px;
+}
+section .section .right ul li:nth-child(2) img {
+  margin-top: 34px;
 }
