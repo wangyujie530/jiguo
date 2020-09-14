@@ -12,7 +12,7 @@ section .section {
 section .section .out {
   position: relative;
   top: 0;
-  left: 340px;
+  left: 455px;
   width: 700px;
   height: auto;
 }
@@ -89,14 +89,14 @@ section .section .right {
   background-color: #ffffff;
   position: relative;
   top: -4864px;
-  left: 1080px;
+  left: 1202px;
   box-shadow: 2px 2px 2px 2px #ebebeb;
 }
 section .section .right ul {
   box-sizing: border-box;
 }
 section .section .right ul li {
-  width: 123px;
+  width: 124px;
   height: 110px;
   float: left;
 }
