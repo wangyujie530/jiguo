@@ -128,6 +128,146 @@ section .dv_out .body_out .body_dv2 .dv2_ul {
   height: 288px;
 }
 section .dv_out .body_out .body_dv2 .dv2_ul ul {
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+  border-radius: 6px;
   width: 224px;
   height: 288px;
+  float: left;
+  margin: 0px 13px 0px 13px ;
+  text-align: center;
+}
+section .dv_out .body_out .body_dv2 .dv2_ul ul li img {
+  width: 220px;
+  height: 130px;
+  border-radius: 6px 6px 0px 0px;
+}
+section .dv_out .body_out .body_dv2 .dv2_ul ul li:nth-child(2) {
+  width: 42px;
+  height: 22px;
+  position: relative;
+  top: -134px;
+  left: 180px;
+  background-color: #f5553d;
+  font-size: 14px;
+  color: white;
+  border-radius: 0px 6px 0px 6px;
+}
+section .dv_out .body_out .body_dv2 .dv2_ul ul li:nth-child(3) {
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: -15px;
+}
+section .dv_out .body_out .body_dv2 .dv2_ul ul li:nth-child(4),
+section .dv_out .body_out .body_dv2 .dv2_ul ul li:nth-child(5) {
+  font-size: 12px;
+  border-radius: 6px;
+  border: 1px solid #f8563d;
+  width: 50px;
+  height: 20px;
+  padding-top: 3px;
+}
+section .dv_out .body_out .body_dv2 .dv2_ul ul li:nth-child(4) {
+  position: relative;
+  top: 0;
+  left: 54px;
+  margin-top: 6px;
+}
+section .dv_out .body_out .body_dv2 .dv2_ul ul li:nth-child(5) {
+  position: relative;
+  top: -25px;
+  left: 118px;
+}
+section .dv_out .body_out .body_dv2 .dv2_ul ul li:nth-child(6) {
+  margin-top: -20px;
+}
+section .dv_out .body_out .body_dv2 .dv2_ul ul li:nth-child(6) span {
+  color: #f8563d;
+}
+section .dv_out .body_out .body_dv2 .dv2_ul .li_little li:nth-child(2) {
+  position: relative !important;
+  top: -134px !important;
+  left: 140px !important;
+  width: 82px !important;
+  height: 22px !important;
+  background-color: #fbf4ca !important;
+  color: #cca675 !important;
+}
+section .dv_out .body_out .body_dv2 .dv2_ul .li_little li:nth-child(4),
+section .dv_out .body_out .body_dv2 .dv2_ul .li_little li:nth-child(5) {
+  border: 1px solid #83b76c;
+  color: #83b76c;
+}
+section .dv_out .body_out .body_dv2 .dv2_ul .li_little li:nth-child(7) {
+  color: #83b76c;
+}
+section .dv_out .dv__right {
+  width: 270px;
+  height: 500px;
+  position: relative;
+  top: -2716px;
+  left: 1182px;
+}
+section .dv_out .dv__right ul li:nth-child(1) {
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  color: #55504f;
+  padding: 3px 0 0 10px;
+  border-left: 6px solid #ff523f;
+}
+section .dv_out .dv__right ul li:nth-child(2) {
+  width: 100px;
+  height: 66px;
+  padding-top: 26px;
+  color: #ff523f;
+  font-size: 32px;
+}
+section .dv_out .dv__right ul li:nth-child(3) {
+  width: 270px;
+  height: 50px;
+  text-align: center;
+}
+section .dv_out .dv__right ul li:nth-child(3) button {
+  width: 270px;
+  height: 50px;
+  color: white;
+  background-color: #fe5341;
+  font-size: 18px;
+  outline: none;
+  border: none;
+}
+section .dv_out .dv__right ul li:nth-child(4) {
+  text-align: center;
+  color: #a1a0a8;
+  margin: 10px 0 10px 0;
+  font-size: 15px;
+}
+section .dv_out .dv__right ul li:nth-child(5) {
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  color: #55504f;
+  padding: 3px 0 0 10px;
+  border-left: 6px solid #ff523f;
+  margin: 15px 0 20px 0;
+}
+section .dv_out .dv__right ul li:nth-child(7) h4 {
+  margin: 10px 0 10px 0;
+}
+section .dv_out .dv__right ul li:nth-child(7) p {
+  color: #a1a0a8;
+  font-size: 14px;
+}
+section .dv_out .dv__right ul li:nth-child(8) {
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  color: #55504f;
+  padding: 3px 0 0 10px;
+  border-left: 6px solid #ff523f;
+  margin: 50px 0 20px 0;
+}
+footer {
+  margin-top: -488px;
 }
