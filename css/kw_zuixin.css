@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+section .out {
+  margin: 0 auto;
+  background-color: #f7f7f7;
+}
+section .out .more {
+  width: 112px;
+  height: 150px;
+  position: relative;
+  top: 55px;
+  left: 894px;
+  color: #ff4747;
+}
+section .out .head {
+  margin: 0 auto;
+  width: 100%;
+  height: 174px;
+  background-color: white;
+  text-align: center;
+}
+section .out .head p {
+  font-size: 40px;
+  padding-top: 40px;
+}
+section .out .head ul {
+  width: 495px;
+  height: 82px;
+  position: relative;
+  top: 0;
+  left: 705px;
+}
+section .out .head ul .orange {
+  color: #f8572b;
+  border-bottom: 4px solid #f8572b;
+}
+section .out .head ul li {
+  font-size: 17px;
+  color: #919095;
+  width: 165px;
+  height: 38px;
+  float: left;
+  padding-top: 40px;
+}
+section .out .body {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+section .out .body ul {
+  float: left;
+  background-color: white;
+  border-radius: 5px;
+  margin: 25px 0 0 30PX;
+  width: 212px;
+  height: 226px;
+}
+section .out .body ul li:nth-child(1) img {
+  border-radius: 5px;
+  width: 212px;
+  height: 132px;
+}
+section .out .body ul li:nth-child(2),
+section .out .body ul li:nth-child(3),
+section .out .body ul li:nth-child(4) {
+  margin-left: 10px;
+}
+section .out .body ul li:nth-child(3) {
+  font-size: 14px;
+  color: #a2a8a6;
+}
+section .out .body ul li:nth-child(4) {
+  color: #ff4c31;
+  margin-top: 15px;
+}
+section .out .body ul li:nth-child(5) {
+  background: url(img/xin.png) no-repeat 0px 3px;
+  background-size: 14px;
+  font-size: 14px;
+  color: #a5a29f;
+  margin: -19px 0 0 140px;
+  width: 30px;
+  height: 18px;
+}
+section .out .body ul li:nth-child(6) {
+  background: url(img/reply.png) no-repeat 0px 4px;
+  background-size: 14px;
+  font-size: 14px;
+  color: #a5a29f;
+  margin: -18px 0 0 175px;
+  width: 30px;
+  height: 18px;
+}
