@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-14 10:31:58
- * @LastEditTime: 2020-09-14 14:52:19
+ * @LastEditTime: 2020-09-14 20:13:36
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \9-2c:\Users\wangyujie\Desktop\极果\js\index.js
@@ -62,3 +62,12 @@ $('.section_dnh').animate({
         imgss(autoss)
     })
    
+    $('.dla').on('click',function(){
+        $('.hidden').show();
+    })
+    $('.find').on('click',function(){
+        $('.hidden').hide();
+    })
+    $('.chacha').on('click', function () {
+        $('.hidden').hide();
+    })
