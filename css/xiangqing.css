@@ -6,6 +6,7 @@ li {
   list-style: none;
 }
 section .section {
+  margin: 0 auto;
   background-color: #f7f7f7;
 }
 section .section .out {
@@ -17,10 +18,10 @@ section .section .out {
 }
 section .section .out .head {
   width: 300px;
-  height: 36px;
+  height: 40px;
 }
 section .section .out .head li {
-  padding-top: 10px;
+  padding-top: 14px;
   font-size: 12px;
   color: #a5a4a0;
   float: left;
@@ -87,7 +88,7 @@ section .section .right {
   height: 110px;
   background-color: #ffffff;
   position: relative;
-  top: -4903px;
+  top: -4864px;
   left: 1080px;
   box-shadow: 2px 2px 2px 2px #ebebeb;
 }
