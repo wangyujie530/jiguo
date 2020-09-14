@@ -31,8 +31,13 @@
 .borde{
     border-radius: 6px;
 }
+.fons (@fs) {
+    font-size: @fs;
+}
+
 section{
     width: 1000px;
+    height: 1100px;
     .mar(a);
     .post(r);
     top: 50px;
@@ -76,7 +81,29 @@ section{
         .borde;
         .section_2_ul {
             .mar(l,30px);
-            .mar(r,30px)
+            .mar(r,30px);
+            .section_2_li_1{
+                .mar(t,28px);
+                border-bottom: 1px solid #a3a3a3;
+                h1{
+                    .mar(t,8px);
+                    .mar(b, 8px);
+                }
+            }
+            li{
+                .section_2_h3{
+                    .mar(t,30px);
+                    .mar(b,30px);
+                }
+                h3{
+                    .mar(t, 60px);
+                    .mar(b, 30px);
+                }
+                p{
+                    .fons(14px);
+                    .mar(b,10px);
+                }
+            }
         }
     }
 }

@@ -6,6 +6,7 @@
 }
 section {
   width: 1000px;
+  height: 1100px;
   margin: auto;
   position: relative;
   top: 50px;
@@ -47,4 +48,24 @@ section .section_2 {
 section .section_2 .section_2_ul {
   margin-left: 30px;
   margin-right: 30px;
+}
+section .section_2 .section_2_ul .section_2_li_1 {
+  margin-top: 28px;
+  border-bottom: 1px solid #a3a3a3;
+}
+section .section_2 .section_2_ul .section_2_li_1 h1 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+section .section_2 .section_2_ul li .section_2_h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+section .section_2 .section_2_ul li h3 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+section .section_2 .section_2_ul li p {
+  font-size: 14px;
+  margin-bottom: 10px;
 }
