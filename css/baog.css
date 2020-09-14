@@ -4,6 +4,9 @@
 .mart {
   margin: auto;
 }
+.imgbac {
+  background: url(../img/bg8.jpg) no-repeat;
+}
 section {
   position: relative;
 }
@@ -44,7 +47,6 @@ section .bads_box .bads_box1 .bads_boxl {
 section .bads_box .bads_box1 .bads_boxl .imgbac {
   height: 414px;
   border-radius: 6px;
-  background: url(../img/bg8.jpg) no-repeat;
   background-size: cover;
   margin-bottom: 20px;
 }
@@ -122,6 +124,40 @@ section .bads_box .bads_box1 .bads_boxl .imgbac_red {
   line-height: 90px;
   text-align: center;
   cursor: pointer;
+}
+section .bads_box .bads_box1 .bads_boxl .aa .imgbac2 {
+  background: url(../img/bg1.jpg);
+}
+section .bads_box .bads_box1 .bads_boxl .aa .imgbacim72 {
+  background: url(../img/bg2.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .aa .imgbacim63 {
+  background: url(../img/bg3.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .aa .imgbacim44 {
+  background: url(../img/bg4.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .aa .imgbacim55 {
+  background: url(../img/bg5.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .aa .imgbacim36 {
+  display: none;
+  background: url(../img/bg6.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .aa .imgbacim27 {
+  display: none;
+  background: url(../img/bg7.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .aa .imgbacim18 {
+  display: none;
+  background: url(../img/bg8.jpg) no-repeat;
+  background-size: cover;
 }
 section .bads_box .bads_box1 .bads_boxr {
   width: 270px;
