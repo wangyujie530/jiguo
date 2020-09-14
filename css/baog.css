@@ -36,7 +36,7 @@ section .bads_box .bads_box1 {
   width: 1000px;
   margin: auto;
   padding-top: 20px;
-  height: 2300px;
+  position: relative;
 }
 section .bads_box .bads_box1 .bads_boxl {
   width: 700px;
@@ -46,6 +46,7 @@ section .bads_box .bads_box1 .bads_boxl .imgbac {
   border-radius: 6px;
   background: url(../img/bg8.jpg) no-repeat;
   background-size: cover;
+  margin-bottom: 20px;
 }
 section .bads_box .bads_box1 .bads_boxl .imgbac .imgbac_d {
   height: 120px;
@@ -85,6 +86,68 @@ section .bads_box .bads_box1 .bads_boxl .imgbac .imgbac_r {
   padding-left: 15px;
   float: right;
 }
+section .bads_box .bads_box1 .bads_boxl .imgbacim7 {
+  background: url(../img/bg7.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbacim6 {
+  background: url(../img/bg6.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbacim4 {
+  background: url(../img/bg4.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbacim5 {
+  background: url(../img/bg5.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbacim3 {
+  display: none;
+  background: url(../img/bg3.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbacim2 {
+  display: none;
+  background: url(../img/bg2.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbacim1 {
+  display: none;
+  background: url(../img/bg1.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbac_red {
+  color: #ff523f;
+  line-height: 90px;
+  text-align: center;
+  cursor: pointer;
+}
 section .bads_box .bads_box1 .bads_boxr {
   width: 270px;
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+section .bads_box .bads_box1 .bads_boxr .bads_boxr_1li {
+  border-left: 6px solid #ff523f;
+  padding-left: 20px;
+  line-height: 25px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+section .bads_box .bads_box1 .bads_boxr .bads_boxr_h5p {
+  margin-top: 20px;
+}
+section .bads_box .bads_box1 .bads_boxr .bads_boxr_h5p h4 {
+  margin-top: 20px;
+}
+section .bads_box .bads_box1 .bads_boxr .bads_boxr_h5p p {
+  color: #9fa0a4;
+  margin-top: 14px;
+  line-height: 24px;
+  font-size: 14px;
+}
+section .bads_box .bads_box1 .bads_boxr .bads_boxr_gli {
+  margin-top: 20px;
 }
