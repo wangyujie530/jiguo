@@ -12,7 +12,7 @@ section .dv_out .dv_head {
   margin: 0 auto;
   width: 100%;
   height: 300px;
-  background: url(css/img/original.jpg);
+  background: url(img/original.jpg);
 }
 section .dv_out .dv_head_f {
   background-color: #f0f0f0;
@@ -49,19 +49,19 @@ section .dv_out .dv_head_f ul li:nth-child(1) {
   border-left: 6px #ff523f solid;
 }
 section .dv_out .dv_head_f ul li:nth-child(2) {
-  background: url(css/img/use1.png) no-repeat center 8px;
+  background: url(img/use1.png) no-repeat center 8px;
 }
 section .dv_out .dv_head_f ul li:nth-child(3) {
-  background: url(css/img/use2.png) no-repeat center 8px;
+  background: url(img/use2.png) no-repeat center 8px;
 }
 section .dv_out .dv_head_f ul li:nth-child(4) {
-  background: url(css/img/use3.png) no-repeat center 8px;
+  background: url(img/use3.png) no-repeat center 8px;
 }
 section .dv_out .dv_head_f ul li:nth-child(5) {
-  background: url(css/img/use4.png) no-repeat center 8px;
+  background: url(img/use4.png) no-repeat center 8px;
 }
 section .dv_out .dv_head_f ul li:nth-child(6) {
-  background: url(css/img/use5.png) no-repeat center 8px;
+  background: url(img/use5.png) no-repeat center 8px;
 }
 section .dv_out .body_out {
   margin: 0px auto;
