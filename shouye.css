@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+section .dv_out {
+  margin: 0 auto;
+}
+section .dv_out .dv_head {
+  margin: 0 auto;
+  width: 100%;
+  height: 300px;
+  background: url(css/img/original.jpg);
+}
+section .dv_out .dv_head_f {
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 100px;
+}
+section .dv_out .dv_head_f ul {
+  margin: 0 auto;
+  width: 1000px;
+  height: 100px;
+  text-align: center;
+}
+section .dv_out .dv_head_f ul .li_border {
+  border-bottom: 2px solid #ff5338;
+}
+section .dv_out .dv_head_f ul li {
+  width: 52px;
+  height: 19px;
+  float: left;
+  font-size: 13px;
+  padding: 50px 0px 0px 0px ;
+  margin: 10px 112px 0px 0px;
+  color: #71676f;
+}
+section .dv_out .dv_head_f ul li:nth-child(1) {
+  width: 60px;
+  height: 60px;
+  padding: 7px 0 4px 0;
+  position: relative;
+  top: 4px;
+  left: 0;
+  font-size: 21px;
+  color: #55504f;
+  border-left: 6px #ff523f solid;
+}
+section .dv_out .dv_head_f ul li:nth-child(2) {
+  background: url(css/img/use1.png) no-repeat center 8px;
+}
+section .dv_out .dv_head_f ul li:nth-child(3) {
+  background: url(css/img/use2.png) no-repeat center 8px;
+}
+section .dv_out .dv_head_f ul li:nth-child(4) {
+  background: url(css/img/use3.png) no-repeat center 8px;
+}
+section .dv_out .dv_head_f ul li:nth-child(5) {
+  background: url(css/img/use4.png) no-repeat center 8px;
+}
+section .dv_out .dv_head_f ul li:nth-child(6) {
+  background: url(css/img/use5.png) no-repeat center 8px;
+}
+section .dv_out .body_out {
+  margin: 0px auto;
+  width: 1000px;
+  height: 100%;
+}
+section .dv_out .body_out .body_dv1 {
+  width: 700px;
+  height: 100%;
+}
+section .dv_out .body_out .body_dv1 .ul_big li {
+  margin: 35px 0 0px 0 ;
+}
+section .dv_out .body_out .body_dv1 .ul_big li div {
+  width: 100px;
+  height: 30px;
+  font-size: 22px;
+  color: #55504f;
+  margin-top: 50px;
+  padding: 3px 0 0 10px;
+  border-left: 6px solid #ff523f;
+}
+section .dv_out .body_out .body_dv1 .ul_big li h3 {
+  color: red;
+}
+section .dv_out .body_out .body_dv1 .ul_big .li_child2 {
+  font-weight: 800;
+  font-size: 21px;
+  color: #ff4b00;
+}
+section .dv_out .body_out .body_dv1 .ul_big li:nth-child(13) {
+  color: #0072cf;
+}
+section .dv_out .body_out .body_dv1 .ul_big li:nth-child(15),
+section .dv_out .body_out .body_dv1 .ul_big li:nth-child(17) {
+  margin: 0;
+}
+section .dv_out .body_out .body_dv1 .ul_big li:nth-child(15) ul li,
+section .dv_out .body_out .body_dv1 .ul_big li:nth-child(17) ul li {
+  margin: 0;
+}
+section .dv_out .body_out .body_dv1 .ul_big li:nth-child(15) ul li span,
+section .dv_out .body_out .body_dv1 .ul_big li:nth-child(17) ul li span {
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+}
+section .dv_out .body_out .body_dv2 {
+  width: 1000px;
+  height: 360px;
+  margin: 80px auto auto auto;
+}
+section .dv_out .body_out .body_dv2 a {
+  position: relative;
+  top: -25px;
+  left: 900px;
+  color: red;
+}
+section .dv_out .body_out .body_dv2 a img {
+  margin-left: 5px;
+}
+section .dv_out .body_out .body_dv2 .dv2_ul {
+  width: 1000px;
+  height: 288px;
+}
+section .dv_out .body_out .body_dv2 .dv2_ul ul {
+  width: 224px;
+  height: 288px;
+}
