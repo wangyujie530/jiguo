@@ -34,7 +34,7 @@ section .dv_out .dv_head_f ul li {
   float: left;
   font-size: 13px;
   padding: 50px 0px 0px 0px ;
-  margin: 10px 112px 0px 0px;
+  margin: 10px 130px 0px 0px;
   color: #71676f;
 }
 section .dv_out .dv_head_f ul li:nth-child(1) {
@@ -62,6 +62,7 @@ section .dv_out .dv_head_f ul li:nth-child(5) {
 }
 section .dv_out .dv_head_f ul li:nth-child(6) {
   background: url(img/use5.png) no-repeat center 8px;
+  margin-right: 0px;
 }
 section .dv_out .body_out {
   margin: 0px auto;
@@ -201,14 +202,14 @@ section .dv_out .body_out .body_dv2 .dv2_ul .li_little li:nth-child(5) {
 section .dv_out .body_out .body_dv2 .dv2_ul .li_little li:nth-child(7) {
   color: #83b76c;
 }
-section .dv_out .dv__right {
+section .dv_out .body_out .dv__right {
   width: 270px;
   height: 500px;
   position: relative;
   top: -2716px;
-  left: 1182px;
+  left: 730px;
 }
-section .dv_out .dv__right ul li:nth-child(1) {
+section .dv_out .body_out .dv__right ul li:nth-child(1) {
   width: 100px;
   height: 30px;
   font-size: 20px;
@@ -216,19 +217,19 @@ section .dv_out .dv__right ul li:nth-child(1) {
   padding: 3px 0 0 10px;
   border-left: 6px solid #ff523f;
 }
-section .dv_out .dv__right ul li:nth-child(2) {
+section .dv_out .body_out .dv__right ul li:nth-child(2) {
   width: 100px;
   height: 66px;
   padding-top: 26px;
   color: #ff523f;
   font-size: 32px;
 }
-section .dv_out .dv__right ul li:nth-child(3) {
+section .dv_out .body_out .dv__right ul li:nth-child(3) {
   width: 270px;
   height: 50px;
   text-align: center;
 }
-section .dv_out .dv__right ul li:nth-child(3) button {
+section .dv_out .body_out .dv__right ul li:nth-child(3) button {
   width: 270px;
   height: 50px;
   color: white;
@@ -237,13 +238,13 @@ section .dv_out .dv__right ul li:nth-child(3) button {
   outline: none;
   border: none;
 }
-section .dv_out .dv__right ul li:nth-child(4) {
+section .dv_out .body_out .dv__right ul li:nth-child(4) {
   text-align: center;
   color: #a1a0a8;
   margin: 10px 0 10px 0;
   font-size: 15px;
 }
-section .dv_out .dv__right ul li:nth-child(5) {
+section .dv_out .body_out .dv__right ul li:nth-child(5) {
   width: 100px;
   height: 30px;
   font-size: 20px;
@@ -252,14 +253,14 @@ section .dv_out .dv__right ul li:nth-child(5) {
   border-left: 6px solid #ff523f;
   margin: 15px 0 20px 0;
 }
-section .dv_out .dv__right ul li:nth-child(7) h4 {
+section .dv_out .body_out .dv__right ul li:nth-child(7) h4 {
   margin: 10px 0 10px 0;
 }
-section .dv_out .dv__right ul li:nth-child(7) p {
+section .dv_out .body_out .dv__right ul li:nth-child(7) p {
   color: #a1a0a8;
   font-size: 14px;
 }
-section .dv_out .dv__right ul li:nth-child(8) {
+section .dv_out .body_out .dv__right ul li:nth-child(8) {
   width: 100px;
   height: 30px;
   font-size: 20px;
