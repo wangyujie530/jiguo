@@ -41,7 +41,47 @@ section{
         .dv_head{
             margin: 0 auto;
             .WH(100%,300px);
-            background: url(./img/original.jpg);
+            background: url(./img/original.jpg) no-repeat center center;
+            
+            .section_ir {
+                .WH(1000px,300px);
+                margin: auto;
+                position: relative;
+                top: 45px;
+        
+                .section_dnh {
+                    width: 320px;
+                    height: 210px;
+                    .PA(-150px,680px);
+                    display: none;
+        
+                    li {
+                        color: white;
+                        float: right;
+                        div {
+                            display: inline-block;
+                            font-size: 14px;
+                            margin: 24px 10px;
+                            padding: 0px 6px;
+                            line-height: 36px;
+                            text-align: center;
+                            .BAK(#f8d198);
+                        }
+                    }
+        
+                    .button {
+                        cursor: pointer;
+                        margin-top: 20px;
+                        width: 244px;
+                        height: 50px;
+                        color: white;
+                        .BAK(#fe5341);
+                        border-radius: 3px;
+                        text-align: center;
+                        line-height: 50px;
+                    }
+                }
+            }
         }
         .dv_head_f{
             .BAK(#f0f0f0);
