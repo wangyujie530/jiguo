@@ -12,9 +12,7 @@ section .out {
 section .out .more {
   width: 112px;
   height: 150px;
-  position: relative;
-  top: 55px;
-  left: 894px;
+  margin: 70px auto -40px auto;
   color: #ff4747;
 }
 section .out .head {
@@ -31,9 +29,7 @@ section .out .head p {
 section .out .head ul {
   width: 330px;
   height: 82px;
-  position: relative;
-  top: 0;
-  left: 790px;
+  margin: 0 auto;
 }
 section .out .head ul .orange {
   color: #f8572b;
@@ -50,7 +46,7 @@ section .out .head ul li {
 section .out .body {
   width: 1000px;
   height: 100%;
-  margin: 0 auto;
+  margin: 2px auto;
   overflow: hidden;
 }
 section .out .body ul {

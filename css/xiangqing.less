@@ -36,11 +36,11 @@ section{
     }
 
     //正式样式
+    .BAK(#f7f7f7); //section的背景
     .section{
         margin: 0 auto;
-        .BAK(#f7f7f7);
+        .WH(1000px,auto);
         .out{
-            .PR(0,455px);
             .WH(700px,auto);
             .head{
                 .WH(300px,40px);
@@ -103,29 +103,31 @@ section{
                     }
                 }
             }
-        }
-        .right{
-            .WH(250px,110px);
-            .BAK(#ffffff);
-            .PR(-4864px,1202px);
-            box-shadow: 2px 2px 2px 2px  #ebebeb;
-            ul{
-                box-sizing: border-box;
-                li{
-                    .WH(124px,110px);
-                    float: left;
-                }
-                li:nth-child(1),
-                li:nth-child(2){
-                    border-right: 1px #ebebeb solid;
-                    text-align: center;
-                    img{
-                        margin-top: 30px;
+            .right{
+                .WH(251px,110px);
+                .BAK(#ffffff);
+                .PR(-4864px,750px);
+                box-shadow: 2px 2px 2px 2px  #ebebeb;
+                ul{
+                    box-sizing: border-box;
+                    li{
+                        .WH(124px,110px);
+                        float: left;
                     }
-                }
-                li:nth-child(2){
-                    img{
-                        margin-top: 34px;
+                    li:nth-child(1){
+                        border-right: 1px #ebebeb solid;
+                    }
+                    li:nth-child(1),
+                    li:nth-child(2){
+                        text-align: center;
+                        img{
+                            margin-top: 30px;
+                        }
+                    }
+                    li:nth-child(2){
+                        img{
+                            margin-top: 34px;
+                        }
                     }
                 }
             }
