@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-09-12 16:00:45
- * @LastEditTime: 2020-09-14 20:57:38
+ * @LastEditTime: 2020-09-14 21:51:46
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \9-2c:\Users\wangyujie\Desktop\极果\index.html
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/footer_modle.css">
     <link rel="stylesheet" href="./css/indexx.css">
-
+    <script src="./js/doT.min.js"></script>
 </head>
 
 <body>
@@ -314,8 +314,8 @@
                             <h3>发现酷玩</h3>
                         </div>
                         <!--  -->
-                        <ul class="baogaojing_box3_ul">
-                            <li class="baogaojing_box3_li">
+                        <ul class="baogaojing_box3_ul" id="ul_s">
+                            <!-- <li class="baogaojing_box3_li">
                                 <img src="./img/k1.jpg" alt="" class="bao_img">
                                 <p>SCiO 微型光谱仪</p>
                                 <a href="#" class="mas">可以测定食物成分及营养</a>
@@ -324,7 +324,7 @@
                                     <a href="#" class="a1ss_box3">3</a>
                                     <a href="#" class="a1ss2_box3">3</a>
                                 </div>
-                            </li>
+                            </li> -->
                 
                         </ul>
                     </div>
@@ -333,7 +333,28 @@
         </div>
     </section>
 
-
+<script id="scrs" type="text/x-dot-template">
+        {{~it:value:index}}
+        <!-- <li class="baogaojing_box3_li">
+                                <img src="{{=value.}}" alt="" class="bao_img">
+                                <p>SCiO 微型光谱仪</p>
+                                <a href="#" class="mas">可以测定食物成分及营养</a>
+                                <div>
+                                    <span class="rend">￥1212</span>
+                                    <a href="#" class="a1ss_box3">3</a>
+                                    <a href="#" class="a1ss2_box3">3</a>
+                                </div>
+         </li> -->
+        <li>
+            <img src="{{=value.booksinmg}}" alt="">
+            <h3>{{=value.booksname}}</h3>
+            <p>{{=value.author}}</p>
+            <p>{{=value.publication}}</p>
+            <p>{{=value.price}}</p>
+        </li>
+        {{~}}
+        </script>
+<script src="./js/inde.js"></script>
     <footer>
         <div class="foot_out">
             <div class="foot_all">
