@@ -57,6 +57,7 @@ section .out .body .in_body {
   left: 0px;
 }
 section .out .body .in_body ul {
+  border: 1px solid #e2e2e2;
   float: left;
   background-color: white;
   border-radius: 5px;
