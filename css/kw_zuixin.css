@@ -36,6 +36,7 @@ section .out .head ul .orange {
   border-bottom: 4px solid #f8572b;
 }
 section .out .head ul li {
+  cursor: pointer;
   font-size: 17px;
   color: #919095;
   width: 165px;

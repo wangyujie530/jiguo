@@ -7,6 +7,13 @@
 .imgbac {
   background: url(../img/bg8.jpg) no-repeat;
 }
+.ssa {
+  height: 1732px;
+  overflow: hidden;
+}
+.backss {
+  background: url(img/loading-icon.gif) no-repeat 279px center;
+}
 section {
   position: relative;
 }
@@ -119,12 +126,6 @@ section .bads_box .bads_box1 .bads_boxl .imgbacim1 {
   background: url(../img/bg1.jpg) no-repeat;
   background-size: cover;
 }
-section .bads_box .bads_box1 .bads_boxl .imgbac_red {
-  color: #ff523f;
-  line-height: 90px;
-  text-align: center;
-  cursor: pointer;
-}
 section .bads_box .bads_box1 .bads_boxl .aa .imgbac2 {
   background: url(../img/bg1.jpg);
 }
@@ -186,4 +187,10 @@ section .bads_box .bads_box1 .bads_boxr .bads_boxr_h5p p {
 }
 section .bads_box .bads_box1 .bads_boxr .bads_boxr_gli {
   margin-top: 20px;
+}
+.imgbac_red {
+  color: #ff523f;
+  line-height: 90px;
+  text-align: center;
+  cursor: pointer;
 }

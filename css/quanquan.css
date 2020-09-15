@@ -1,0 +1,65 @@
+.head_uls {
+  margin-top: 20px;
+}
+.head_uls .head_lis {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+  top: 0px;
+  border: 1px solid #eaeaea;
+  background-color: white;
+  border-radius: 6px;
+}
+.head_uls .head_lis .heass_lis .biao_red {
+  height: 25px;
+  border-left: 6px solid #fa5444;
+}
+.head_uls .head_lis .heass_lis .biao_red span {
+  text-align: left;
+  line-height: 25px;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+}
+.head_uls .head_lis .heass_lis .yuantu_s {
+  width: 900px;
+  margin: auto;
+}
+.head_uls .head_lis .heass_lis .yuantu_s ul {
+  overflow: hidden;
+}
+.head_uls .head_lis .heass_lis .yuantu_s ul .li3s {
+  width: 146px;
+  height: 146px;
+  float: left;
+}
+.head_uls .head_lis .heass_lis .yuantu_s ul .li3s img {
+  padding-left: 23px;
+  margin-bottom: 10px;
+}
+.head_uls .head_lis .heass_lis .yuantu_s ul .li3s p {
+  text-align: center;
+  font-size: 12px;
+  color: #a09c91;
+}
+.head_uls .head_lis .heass_div2 {
+  border-top: 1px dashed #a09c91;
+}
+.head_uls .head_lis .heass_div2 .heass_lis2 {
+  width: 900px;
+  margin: auto;
+  overflow: hidden;
+}
+.head_uls .head_lis .heass_div2 .heass_lis2 .heass_lis2_li {
+  float: left;
+  margin: 14px 0px 12px 0px ;
+  width: 146px;
+  text-align: center;
+  font-size: 12px;
+  color: #a09c91;
+}
+.li3s img:hover {
+  cursor: pointer;
+  transition: all 0.5s;
+  transform: rotate(360deg) scale(1.1);
+}

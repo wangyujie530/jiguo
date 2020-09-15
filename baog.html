@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/footer_modle.css">
     <link rel="stylesheet" href="./css/baog.css">
+    <script src="./js/doT.min.js"></script>
     
 </head>
 
@@ -20,7 +21,7 @@
                 <li><a href="#">酷玩</a></li>
                 <li><a href="#">导购</a></li>
                 <li><a href="#">试用</a></li>
-                <li><a href="file:///C:/Users/wangyujie/Desktop/极果/baog.html" class="rig">报告</a></li>
+                <li><a href="baog.html" class="rig">报告</a></li>
             </ul>
             <div>
                 <div></div>
@@ -41,8 +42,8 @@
         <div class="bads_box">
             <div class="bads_box1">
                 <div class="bads_boxl">  
-                    <ul class="ab" hidden>
-                        <li class="imgbac">
+                    <ul class="ab ssa" hidden id="daoer">
+                        <!-- <li class="imgbac">
                             <div class="imgbac_d">
                                 <p>空气净化器里面学问多得惊呆你，你选对了吗?</p>
                                 <div>
@@ -106,8 +107,8 @@
                                     <span class="imgbac_r imgbac_r_img2">3</span>
                                 </div>
                             </div>
-                        </li>
-                        <li class="imgbac imgbacim3">
+                        </li> -->
+                        <!-- <li class="imgbac imgbacim3">
                             <div class="imgbac_d">
                                 <p>Liquid Image 338 运动摄像眼镜</p>
                                 <div>
@@ -145,14 +146,52 @@
                                     <span class="imgbac_r imgbac_r_img2">3</span>
                                 </div>
                             </div>
-                        </li>
-                        <li class="imgbac_red" id="boko">
-                        ﹀点击加载更多
-
-                        </li>
+                        </li> -->
+                       
                     </ul>
+                     <div class="imgbac_red " id="boko" hidden>
+                        ﹀点击加载更多
+                        </div>
+                    <script id="uls_s" type="text/x-dot-template">
+                                        {{~it:value:index}}
+                            <li class="imgbac" style="background:url({{=value.img}}) no-repeat; background-size: contain;">
+                            <div class="imgbac_d" >
+                                <p>{{=value.text}}</p>
+                                <div>
+                                    <span class="span_ims">tout</span>
+                                    <span class="span_red">苏苏</span>
+                                    <span>2016-01-25</span>
+                                    <span class="imgbac_r imgbac_r_img1" >
+                                        3</span>
+                                    <span class="imgbac_r imgbac_r_img2">3</span>
+                                </div>
+                            </div>
+                            </li>
+                                        {{~}}
+                                    
+                                        </script>
+                    
+                    <script>
+                        function sds_() {
+                            var a_a = new XMLHttpRequest() || new ActiveXObject('Microsoft.XMLHTTP');
+                            a_a.open('get', 'http://192.168.1.47:3000/guid/hot', true);
+                            a_a.send();
+                            a_a.onreadystatechange = function () {
+                                if (a_a.readyState == 4) {
+                                    if (a_a.status == 200) {
+                                        var ss_ = JSON.parse(a_a.responseText)
+                                        var int_ = doT.template(uls_s.innerText);
+                                        daoer.innerHTML = int_(ss_)
+                                        console.log(ss_)
+                                    }
+                                }
+                            }
+                        }
+
+                       sds_();
+                    </script>
                     <!-- 1 -->
-                    <ul class="aa">
+                    <ul class="aa" >
                         <li class="imgbac imgbac2">
                             <div class="imgbac_d ">
                                 <p>空气净化器里面学问多得惊呆你，你选对了吗?</p>
@@ -257,11 +296,12 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="imgbac_red" id="koks">
+                         <li class="imgbac_red" id="koks">
                             ﹀点击加载更多
                     
                         </li>
                     </ul>
+                   
                     <!-- 223 -->
                 </div>
                 <div class="bads_boxr" >

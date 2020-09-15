@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-09-12 16:00:45
- * @LastEditTime: 2020-09-14 21:51:46
+ * @LastEditTime: 2020-09-15 11:03:57
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \9-2c:\Users\wangyujie\Desktop\极果\index.html
@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/footer_modle.css">
     <link rel="stylesheet" href="./css/indexx.css">
     <script src="./js/doT.min.js"></script>
+    <script src="./js/inde.js"></script>
 </head>
 
 <body>
@@ -28,7 +29,7 @@
                 <li><a href="#">酷玩</a></li>
                 <li><a href="#">导购</a></li>
                 <li><a href="#">试用</a></li>
-                <li><a href="file:///C:/Users/wangyujie/Desktop/极果/baog.html">报告</a></li>
+                <li><a href="baog.html">报告</a></li>
             </ul>
             <div>
                 <div></div>
@@ -269,8 +270,8 @@
                      <h3>报告精选</h3>
                  </div>
                 <!--  -->
-                    <ul class="baogaojing_box_ul">
-                        <li class="baogaojing_box_li">
+                    <ul class="baogaojing_box_ul" id="xxxul">
+                        <!-- <li class="baogaojing_box_li" >
                         <img src="./img/bg1.jpg" alt=""  class="bgg_boximgs">
                         <p >空气净化器里面学问多得惊呆你，你选对了吗？</p>
                         <div>
@@ -278,20 +279,52 @@
                             <a href="#" class="a1ss">3</a> 
                             <a href="#" class="a1ss2">3</a>
                         </div>
-                        </li>
+                        </li> -->
                         
                     </ul>
                  </div>
             </div>
-           
+           <script id="xxx2" type="text/x-dot-template">
+                    {{~it:value:index}}
+                   <li class="baogaojing_box_li">
+                        <img src="{{=value.img}}" alt=""  class="bgg_boximgs">
+                        <p >{{=value.text}}</p>
+                        <div>
+                            <span>● {{=value.uName}}</span> 
+                            <a href="#" class="a1ss">{{=value.apply}}</a> 
+                            <a href="#" class="a1ss2">{{=value.totalnum}}</a>
+                        </div>
+                        </li>
+                    {{~}}
+                    </script>
+                    
+                    <script>
+                        function sds_() {
+                                var a_a = new XMLHttpRequest() || new ActiveXObject('Microsoft.XMLHTTP');
+                                a_a.open('get', 'http://192.168.1.47:3000/report/new', true);
+                                a_a.send();
+                                a_a.onreadystatechange = function () {
+                                    if (a_a.readyState == 4) {
+                                        if (a_a.status == 200) {
+                                            var ss_ = JSON.parse(a_a.responseText)
+                                                var int_ = doT.template(xxx2.innerText);
+                                                xxxul.innerHTML = int_(ss_)
+                                                console.log(ss_)
+                                        }
+                                    }
+                                }
+                            }
+
+                        sds_();
+                    </script>
             <!-- er -->
             <div class="baogaojing_box2">
                 <div class="baogaojing_boxh3">
                     <h3>导购精选</h3>
                 </div>
-                    <ul class="ulrse">
-                        <li >
-                            <div class="lissdu">
+                    <ul class="ulrse" id="daoer">
+                        <!-- <li > -->
+                            <!-- <div class="lissdu">
                                     <img src="./img/g1.jpg" alt="">
                                      <p>花万元把蜗居秒变“豪宅”？这12件家具就能帮你办到</p>
                                     <a class="box2_span1" href="#">3</a> <a class="box2_span2" href="#">3</a> 
@@ -299,12 +332,47 @@
                             <div class="xiabian1">
                             </div> 
                             <div class="xiabian2"> 
-                            </div>
-                        </li>
+                            </div> -->
+                        <!-- </li> -->
                     </ul>
                 
                 
             </div>
+            <script id="uls_s" type="text/x-dot-template">
+                    {{~it:value:index}}
+                    <li >
+                            <div class="lissdu">
+                                    <img src="{{=value.img}}" alt="">
+                                     <p>{{=value.text}}</p>
+                                    <a class="box2_span1" href="#">{{=value.like}}</a> <a class="box2_span2" href="#">{{=value.words}}</a> 
+                            </div>
+                            <div class="xiabian1">
+                            </div> 
+                            <div class="xiabian2"> 
+                            </div>
+                        </li>
+                    {{~}}
+                    </script>
+                    
+                    <script>
+                        function sds_() {
+                                var a_a = new XMLHttpRequest() || new ActiveXObject('Microsoft.XMLHTTP');
+                                a_a.open('get', 'http://192.168.1.47:3000/guid/new', true);
+                                a_a.send();
+                                a_a.onreadystatechange = function () {
+                                    if (a_a.readyState == 4) {
+                                        if (a_a.status == 200) {
+                                            var ss_ = JSON.parse(a_a.responseText)
+                                                var int_ = doT.template(uls_s.innerText);
+                                                daoer.innerHTML = int_(ss_)
+                                                console.log(ss_)
+                                        }
+                                    }
+                                }
+                            }
+
+                        sds_();
+                    </script>
             <!-- san -->
             <div class="baogaojing_box3">
                 <div style="width: 100%;background-color: #f7f7f7;">
@@ -315,7 +383,7 @@
                         </div>
                         <!--  -->
                         <ul class="baogaojing_box3_ul" id="ul_s">
-                            <!-- <li class="baogaojing_box3_li">
+                            <li class="baogaojing_box3_li">
                                 <img src="./img/k1.jpg" alt="" class="bao_img">
                                 <p>SCiO 微型光谱仪</p>
                                 <a href="#" class="mas">可以测定食物成分及营养</a>
@@ -324,7 +392,7 @@
                                     <a href="#" class="a1ss_box3">3</a>
                                     <a href="#" class="a1ss2_box3">3</a>
                                 </div>
-                            </li> -->
+                            </li>
                 
                         </ul>
                     </div>
@@ -335,26 +403,43 @@
 
 <script id="scrs" type="text/x-dot-template">
         {{~it:value:index}}
-        <!-- <li class="baogaojing_box3_li">
-                                <img src="{{=value.}}" alt="" class="bao_img">
-                                <p>SCiO 微型光谱仪</p>
-                                <a href="#" class="mas">可以测定食物成分及营养</a>
-                                <div>
-                                    <span class="rend">￥1212</span>
-                                    <a href="#" class="a1ss_box3">3</a>
-                                    <a href="#" class="a1ss2_box3">3</a>
-                                </div>
-         </li> -->
-        <li>
-            <img src="{{=value.booksinmg}}" alt="">
-            <h3>{{=value.booksname}}</h3>
-            <p>{{=value.author}}</p>
-            <p>{{=value.publication}}</p>
-            <p>{{=value.price}}</p>
-        </li>
+        <li class="baogaojing_box3_li">
+             <img src="{{=value.img}}" alt="" class="bao_img">
+            <p>{{=value.text}}</p>
+            <a href="#" class="mas"></a>
+            <div>
+            <span class="rend">{{=value.price}}</span>
+            <a href="#" class="a1ss_box3">{{=value.like}}</a>
+            <a href="#" class="a1ss2_box3">{{=value.words}}</a>
+            </div>
+         </li>
         {{~}}
         </script>
-<script src="./js/inde.js"></script>
+
+<script>
+    sd_('/play/new',scrs,ul_s,'get');
+</script>
+<!-- <script>
+     function sd_() {
+            var a_a = new XMLHttpRequest() || new ActiveXObject('Microsoft.XMLHTTP');
+            a_a.open('get', 'http://192.168.1.47:3000/play/hot', true);
+            a_a.send();
+            a_a.onreadystatechange = function () {
+                if (a_a.readyState == 4) {
+                    if (a_a.status == 200) {
+                        var ss_ = JSON.parse(a_a.responseText)
+                        for (var i = 0; i < ss_.length; i++) {
+                            var int_ = doT.template(scrs.innerText);
+                            ul_s.innerHTML = int_(ss_[i])
+                            console.log(ss_[i])
+                        }
+
+                    }
+                }
+            }
+        }
+        sd_();
+</script> -->
     <footer>
         <div class="foot_out">
             <div class="foot_all">
@@ -372,8 +457,8 @@
                 <div class="dv3">
                     <h3>免费试用</h3>
                     <ul>
-                    <li><a href="file:///C:/Users/wangyujie/Desktop/极果/shiyong.html">试用流程</a></li>
-                    <li><a href="file:///C:/Users/wangyujie/Desktop/极果/shiyong.html">如何提高成功率</a></li>
+                    <li><a href="shiyong.html">试用流程</a></li>
+                    <li><a href="shiyong.html">如何提高成功率</a></li>
                     </ul>
                 </div>
                 <div class="dv4">
@@ -409,8 +494,8 @@
                 <div class="dv6">
                     <h3>厂商合作</h3>
                     <ul>
-                    <li><a href="file:///C:/Users/wangyujie/Desktop/极果/shangwu.html">关于极果</a></li>
-                    <li><a href="file:///C:/Users/wangyujie/Desktop/极果/shangwu.html">联系我们</a></li>
+                    <li><a href="shangwu.html">关于极果</a></li>
+                    <li><a href="shangwu.html">联系我们</a></li>
                         <li>商务合作：BD@jiguo.com</li>
                         <li>CEO邮箱：CEO@jiguo.com</li>
                     </ul>
