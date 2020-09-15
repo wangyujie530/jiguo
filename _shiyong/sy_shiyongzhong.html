@@ -48,17 +48,32 @@
                     <li>已结束</li>
                 </ul>
             </div>
-            <div class="body">  
-                <ul>
-                    <li>
-                        <img src="../img/bg3.jpg" alt="">
-                    </li>
-                    <li>SCIO 微型光谱仪</li>
-                    <li>可以测定食物成分及营养</li>
-                    <li>￥1212</li>
-                    <li>&nbsp;&nbsp;&nbsp;&nbsp;3</li>
-                    <li>&nbsp;&nbsp;&nbsp;&nbsp;3</li>
-                </ul>
+            <div class="body">
+                <!-- <ul>
+                    <li><img src="../img/hot1.jpg"></li>
+                    <li>首发</li>
+                    <li>巴慕达 The Toaster 烤面包机</li>
+                    <li>2032</li>
+                    <li>20台</li>
+                    <li><span>1392</span>申请</li>
+                    <li>剩余时间2天</li>
+                </ul> -->
+
+                <div id="dv_dot"></div>
+
+                <script id="dot_dv" type="text/x-dot-template">
+                    {{~it:value:index}}
+                    <ul class="change_css">
+                        <li><img src="{{=value.img}}"></li>
+                        <li>{{=value.info_ty}}</li>
+                        <li>{{=value.text}}</li>
+                        <li>{{=value.totalnum}}</li>
+                        <li>{{=value.num}}台</li>
+                        <li><span>{{=value.apply}}</span>申请</li>
+                        <li>截止到{{=value.endTime}}</li>
+                    </ul>
+                    {{~}}
+                </script>
             </div>
             <div class="more"><img src="../css/img/more.png">点击加载更多</div>
         </div>
@@ -135,6 +150,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="../js/doT.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/sy_quanbu.js"></script>
 </body>
 
 </html>
