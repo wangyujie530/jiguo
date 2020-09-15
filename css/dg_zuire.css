@@ -49,47 +49,69 @@ section .out .body {
   margin: 2px auto;
   overflow: hidden;
 }
-section .out .body ul {
+section .out .body .cengdie {
+  width: 250px;
+  height: 285px;
   float: left;
+}
+section .out .body .cengdie ul {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  z-index: 6;
+  border: 1px solid #ddd;
   background-color: white;
   border-radius: 5px;
   margin: 25px 0 0 30PX;
   width: 212px;
   height: 226px;
 }
-section .out .body ul li:nth-child(1) img {
+section .out .body .cengdie ul li:nth-child(1) img {
   border-radius: 5px;
   width: 212px;
   height: 132px;
 }
-section .out .body ul li:nth-child(2),
-section .out .body ul li:nth-child(3),
-section .out .body ul li:nth-child(4) {
-  margin-left: 10px;
+section .out .body .cengdie ul li:nth-child(2) {
+  margin: 10px;
+  width: 192px;
+  height: 45px;
+  color: #45372e;
 }
-section .out .body ul li:nth-child(3) {
-  font-size: 14px;
-  color: #a2a8a6;
-}
-section .out .body ul li:nth-child(4) {
-  color: #ff4c31;
-  margin-top: 15px;
-}
-section .out .body ul li:nth-child(5) {
-  background: url(img/xin.png) no-repeat 0px 3px;
+section .out .body .cengdie ul li:nth-child(3) {
+  background: url(img/xin.png) no-repeat 0px 2px;
   background-size: 14px;
   font-size: 14px;
   color: #a5a29f;
-  margin: -19px 0 0 140px;
+  margin: -4px 0 0 140px;
   width: 30px;
   height: 18px;
 }
-section .out .body ul li:nth-child(6) {
-  background: url(img/reply.png) no-repeat 0px 4px;
+section .out .body .cengdie ul li:nth-child(4) {
+  background: url(img/reply.png) no-repeat 0px 2px;
   background-size: 14px;
   font-size: 14px;
   color: #a5a29f;
   margin: -18px 0 0 175px;
   width: 30px;
   height: 18px;
+}
+section .out .body .cengdie .p_1 {
+  width: 194px;
+  height: 20px;
+  z-index: 3;
+  border: 1px solid #ddd;
+  background-color: white;
+  position: relative;
+  top: -16px;
+  left: 38px;
+}
+section .out .body .cengdie .p_2 {
+  width: 170px;
+  height: 20px;
+  z-index: 1;
+  border: 1px solid #ddd;
+  background-color: white;
+  position: relative;
+  top: -33px;
+  left: 50px;
 }

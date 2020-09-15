@@ -40,17 +40,38 @@
                     <li>最热</li>
                 </ul>
             </div>
-            <div class="body">  
-                <ul>
-                    <li>
-                        <img src="../img/bg3.jpg" alt="">
-                    </li>
-                    <li>SCIO 微型光谱仪</li>
-                    <li>可以测定食物成分及营养</li>
-                    <li>￥1212</li>
-                    <li>&nbsp;&nbsp;&nbsp;&nbsp;3</li>
-                    <li>&nbsp;&nbsp;&nbsp;&nbsp;3</li>
-                </ul>
+            <div class="body">
+                <!-- <div class="cengdie">
+                    <ul>
+                        <li>
+                            <img src="../img/bg3.jpg" alt="">
+                        </li>
+                        <li>SCIO 微型光谱仪</li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;3</li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;5</li>
+                    </ul>
+                    <p class="p_1"></p>
+                    <p class="p_2"></p>
+                </div> -->
+                
+                <div id="dv_dot"></div>
+
+                <script id="dot_dv" type="text/x-dot-template">
+                {{~it:value:index}}
+                <div class="cengdie">
+                    <ul>
+                        <li>
+                            <img src="{{=value.img}}" alt="">
+                        </li>
+                        <li>{{=value.text}}</li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;{{=value.like}}</li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;{{=value.words}}</li>
+                    </ul>
+                    <p class="p_1"></p>
+                    <p class="p_2"></p>
+                </div>
+                {{~}}
+                </script>
             </div>
             <div class="more"><img src="../css/img/more.png">点击加载更多</div>
         </div>
@@ -127,6 +148,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="../js/doT.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/dg_zuire.js"></script>
 </body>
 
 </html>

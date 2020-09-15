@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/footer_modle.css">
     <link rel="stylesheet" href="../css/kw_zuixin.css">
+    <script src="../js/doT.min.js"></script>
 </head>
 
 <body>
@@ -42,16 +43,35 @@
                 </ul>
             </div>
             <div class="body">  
-                <ul>
-                    <li>
-                        <img src="../img/bg3.jpg" alt="">
-                    </li>
-                    <li>SCIO 微型光谱仪</li>
-                    <li>可以测定食物成分及营养</li>
-                    <li>￥1212</li>
-                    <li>&nbsp;&nbsp;&nbsp;&nbsp;3</li>
-                    <li>&nbsp;&nbsp;&nbsp;&nbsp;3</li>
-                </ul>
+                <div class="in_body">
+                    <!-- <ul>
+                        <li>
+                            <img src="../img/bg3.jpg" alt="">
+                        </li>
+                        <li>SCIO 微型光谱仪</li>
+                        <li>可以测定食物成分及营养</li>
+                        <li>￥1212</li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;3</li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;3</li>
+                    </ul> -->
+                    <div id="ul_dot">
+
+                    </div>
+                    <script id="dot_d" type="text/x-dot-template">
+                    {{~it:value:index}}
+                    <ul>
+                        <li>
+                            <img src="{{=value.img}}" alt="">
+                        </li>
+                        <li>{{=value.text}}</li>
+                        <li>{{=value.info}}</li>
+                        <li>{{=value.price}}</li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;{{=value.like}}</li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;{{=value.words}}</li>
+                    </ul>
+                    {{~}}
+                    </script>
+                </div>
             </div>
             <div class="more"><img src="../css/img/more.png">点击加载更多</div>
         </div>
@@ -128,6 +148,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/kw_zuire.js"></script>
 </body>
 
 </html>
