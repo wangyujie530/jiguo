@@ -1,6 +1,7 @@
 
 
 
+
 //获取验证码
 var btn = document.getElementsByTagName('button')[0];
 var num = 6;
@@ -79,7 +80,18 @@ $('.inp_6').blur(function () {
 //点击注册进行验证
 $('.btn_big').click(function () {
     if ( $('.dv_span').children('span').text()=='') {
-        alert('注册成功,请登录');
+        $.ajax({
+            url: 'http://192.168.1.47:3000/users',
+            type: "post",
+            data: {
+                type: 'register',
+                phone: $('#inpname').val(),
+                pass: $('#passx').val()
+            },
+            success(res) {
+                alert(res);
+            }
+        })
     } else {
         alert('请完善您的信息');
     }
