@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+section .out {
+  margin: 0 auto;
+  background-color: #f7f7f7;
+}
+section .out .more {
+  width: 112px;
+  height: 150px;
+  margin: 70px auto -40px auto;
+  color: #ff4747;
+}
+section .out .head {
+  margin: 0 auto;
+  width: 100%;
+  height: 174px;
+  background-color: white;
+  text-align: center;
+}
+section .out .head p {
+  font-size: 40px;
+  padding-top: 40px;
+}
+section .out .head ul {
+  width: 330px;
+  height: 82px;
+  margin: 0 auto;
+}
+section .out .head ul .orange {
+  color: #f8572b;
+  border-bottom: 4px solid #f8572b;
+}
+section .out .head ul li {
+  font-size: 17px;
+  color: #919095;
+  width: 165px;
+  height: 38px;
+  float: left;
+  padding-top: 40px;
+}
+section .out .body {
+  width: 1000px;
+  height: 100%;
+  margin: 2px auto;
+  overflow: hidden;
+}
+section .out .body .cengdie {
+  width: 250px;
+  height: 285px;
+  float: left;
+}
+section .out .body .cengdie ul {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  z-index: 6;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 5px;
+  margin: 25px 0 0 30PX;
+  width: 212px;
+  height: 226px;
+}
+section .out .body .cengdie ul li:nth-child(1) img {
+  border-radius: 5px;
+  width: 212px;
+  height: 132px;
+}
+section .out .body .cengdie ul li:nth-child(2) {
+  margin: 10px;
+  width: 192px;
+  height: 45px;
+  color: #45372e;
+}
+section .out .body .cengdie ul li:nth-child(3) {
+  background: url(img/xin.png) no-repeat 0px 2px;
+  background-size: 14px;
+  font-size: 14px;
+  color: #a5a29f;
+  margin: -4px 0 0 140px;
+  width: 30px;
+  height: 18px;
+}
+section .out .body .cengdie ul li:nth-child(4) {
+  background: url(img/reply.png) no-repeat 0px 2px;
+  background-size: 14px;
+  font-size: 14px;
+  color: #a5a29f;
+  margin: -18px 0 0 175px;
+  width: 30px;
+  height: 18px;
+}
+section .out .body .cengdie .p_1 {
+  width: 194px;
+  height: 20px;
+  z-index: 3;
+  border: 1px solid #ddd;
+  background-color: white;
+  position: relative;
+  top: -16px;
+  left: 38px;
+}
+section .out .body .cengdie .p_2 {
+  width: 170px;
+  height: 20px;
+  z-index: 1;
+  border: 1px solid #ddd;
+  background-color: white;
+  position: relative;
+  top: -33px;
+  left: 50px;
+}

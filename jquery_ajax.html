@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div hidden>loading......</div>
+    <script src="./js/jquery.min.js"></script>
+    <script>
+
+
+        //方法一
+
+        $.get('http://192.168.1.47:3000/useing/public', {
+            type: 1
+        }, function (res) {
+            console.log(res);
+        }, 'json');
+
+
+
+        //方法一
+
+        $.ajax({
+            url: "http://192.168.1.47:3000/useing/public",
+            data: {
+                type: 1
+            },
+            dataType: 'json',
+
+            beforeSend(xhr) {
+                $('div').show();
+            },
+            success: function (res) {
+                console.log(res);
+                $('div').hide();
+            },
+            error(err) {
+                console.log(err);
+            },
+        });
+
+
+
+        //方法二
+
+        function whale(res) {
+            console.log(res);
+        }
+
+        $.ajax({
+            url: 'http://192.168.1.47:3000/useing/public',
+            dataType: "json",
+            jsonpCallback: 'whale',
+            beforeSend(xhr) {
+                $('div').show();
+            },
+            success: function (res) {
+                console.log(res);
+                $('div').hide();
+            },
+            error(err) {
+                console.log(err);
+            },
+        });
+
+
+
+
+    </script>
+</body>
+
+</html>

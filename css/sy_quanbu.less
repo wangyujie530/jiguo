@@ -1,0 +1,160 @@
+//默认样式
+*{
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+
+
+section{
+    //宽高变量
+    .WH(@W:100%,@H:100%){
+        width: @W;
+        height: @H;
+    }
+    //背景颜色
+    .BAK(@bak){
+        background-color: @bak;
+    }
+    //定位
+    .PR(@rt:0px,@rl:0px){
+        position: relative;
+        top: @rt;
+        left: @rl;
+    }
+    .PA(@at:0px,@al:0px){
+        position: absolute;
+        top: @at;
+        left: @al;
+    }
+    .TL(@ft:0px,@fl:0px){
+        top: @ft;
+        left: @fl;
+    }
+
+    //正式css
+    .out{
+        margin: 0 auto;
+        .BAK(#f7f7f7);
+        .more{
+            .WH(112px,150px);
+            margin: 70px auto -50px auto;
+            color: #ff4747;
+        }
+        .head{
+            margin: 0 auto;
+            .WH(100%,174px);
+            .BAK(white);
+            text-align: center;
+            p{
+                font-size: 40px;
+                padding-top: 40px;
+            }
+            ul{
+                .WH(330px,82px);
+                margin: 0 auto;
+                .orange{
+                    color: #f8572b;
+                    border-bottom: 4px solid #f8572b;
+                }
+                li{
+                    font-size: 17px;
+                    color: #919095;
+                    .WH(165px,38px);
+                    float: left;
+                    padding-top: 40px;
+                }
+            }
+        }
+        .head_b{
+            .WH(100%,50px);
+            .BAK(white);
+            margin: 0 auto;
+            border-top: 2px solid #f2f2f2;
+            ul{
+                .WH(660px,auto);
+                margin: 0 auto;
+                padding-top: 12px;
+                text-align: center;
+                .font_color{
+                    color: black;
+                }
+                li{
+                    float: left;
+                    .WH(165px,36px);
+                    color: #9ca2a2;
+                }
+            }
+        }
+        .body{
+            .WH(1000px,100%);
+            margin: 0 auto;
+            overflow: hidden;
+            ul{
+                border: 1px solid #eaeaea;
+                box-sizing: border-box;
+                border-radius: 6px;
+                .WH(224px,320px);
+                float: left;
+                margin: 0px 13px 0px 13px ;
+                text-align: center;
+                li{
+                    img{
+                        .WH(220px,130px);
+                        border-radius: 6px 6px 0px 0px;
+                    }
+                }
+                li:nth-child(2){
+                    .WH(42px,22px);
+                    .PR(-134px,180px);
+                    .BAK(#f5553d);
+                    font-size: 14px;
+                    color: white;
+                    border-radius: 0px 6px 0px 6px;
+                }
+                li:nth-child(3){
+                    .WH(204px,64px);
+                    font-size: 17px;
+                    font-weight: 600;
+                    margin: -15px 10px 0 10px;
+                }
+                li:nth-child(4),
+                li:nth-child(5){
+                    font-size: 12px;
+                    border-radius: 6px;
+                    border: 1px solid #f8563d;
+                    .WH(50px,22px);
+                }
+                li:nth-child(4){
+                    .PR(0,54px);
+                    margin-top: 6px;
+                }
+                li:nth-child(5){
+                    .PR(-25px,118px);
+                }
+                li:nth-child(6){
+                    margin-top: -20px;
+                    span{color: #f8563d;}
+                }
+                .change_css{
+                    li:nth-child(2){
+                        .PR(-134px,140px) !important;
+                        .WH(82px,22px) !important;  
+                        .BAK(#fbf4ca) !important;
+                        color: #cca675 !important;
+                    }
+                    li:nth-child(4),
+                    li:nth-child(5){
+                        border: 1px solid #83b76c;
+                        color: #83b76c;
+                    }
+                    li:nth-child(7){
+                        color: #83b76c;
+                    }
+                }
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>导购</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/footer_modle.css">
+    <link rel="stylesheet" href="../css/dg_zuire.css">
+</head>
+
+<body>
+    <header>
+        <div class="divs_">
+            <img src="../img/logonew.png" alt="">
+            <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="../_kuwan/kw_zuire.html">酷玩</a></li>
+            <li><a href="dg_zuixin.html" class="rig">导购</a></li>
+            <li><a href="../_shiyong/sy_quanbu.html">试用</a></li>
+            <li><a href="../baog.html">报告</a></li>
+            </ul>
+            <div>
+                <div></div>
+                <span><a href="#">注册</a></span>
+                <span><a href="#">登录</a></span>
+            </div>
+        </div>
+    </header>
+
+
+    <section>
+        <div class="out">
+            <div class="head">
+                <p>导购清单</p>
+                <ul>
+                    <li>最新 <a href="./dg_zuixin.html" style="display: inline-block;width: 100%;height: 100%;"></a></li>
+                    <li class="orange">最热 <a href="./dg_zuire.html" style="display: inline-block;width: 100%;height: 100%;"></a></li>
+                </ul>
+            </div>
+            <div class="body">
+                <!-- <div class="cengdie">
+                    <ul>
+                        <li>
+                            <img src="../img/bg3.jpg" alt="">
+                        </li>
+                        <li>SCIO 微型光谱仪</li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;3</li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;5</li>
+                    </ul>
+                    <p class="p_1"></p>
+                    <p class="p_2"></p>
+                </div> -->
+                
+                <div id="dv_dot"></div>
+
+                <script id="dot_dv" type="text/x-dot-template">
+                {{~it:value:index}}
+                <div class="cengdie">
+                    <ul>
+                        <li>
+                            <img src="{{=value.img}}" alt="">
+                        </li>
+                        <li>{{=value.text}} <a href="./dg_xiangqing.html" style="display: inline-block;width: 100%;height: 100%;"></a></li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;{{=value.like}}</li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;{{=value.words}}</li>
+                    </ul>
+                    <p class="p_1"> </p>
+                    <p class="p_2"></p>
+                </div>
+                {{~}}
+                </script>
+            </div>
+            <div class="more"><img src="../css/img/more.png">点击加载更多</div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="foot_out">
+            <div class="foot_all">
+                <div class="dv1">
+                    <img src="../img/code.png">
+                </div>
+                <div class="dv2">
+                    <ul>
+                        <li><img src="../img/logoImg.jpg"></li>
+                        <li>全球酷玩试用导购平台酷·新奇·好玩·品质</li>
+                        <li>微信添加"JguoJguo"</li>
+                        <li>获取我们的服务。</li>
+                    </ul>
+                </div>
+                <div class="dv3">
+                    <h3>免费试用</h3>
+                    <ul>
+                        <li>
+                        </li>
+                        <li><a href="../shiyong.html">试用流程</a></li>
+                        <li><a href="../shiyong.html">如何提高成功率</a></li>
+                        </ul>
+                        </div>
+                        <div class="dv4">
+                            <h3>友情链接</h3>
+                            <ul>
+                                <li>智东西</li>
+                                <li>WEIBUSI</li>
+                                <li>搜狐IT</li>
+                                <li>腾讯科技</li>
+                                <li>搜狐数码</li>
+                                <li>凤凰科技</li>
+                                <li>凤凰数码</li>
+                                <li>PConline</li>
+                                <li>泡泡网</li>
+                                <li>3W咖啡</li>
+                                <li>ZUK社区</li>
+                                <li>亿觅emie</li>
+                                <li>极客公园</li>
+                                <li>易迅易启玩</li>
+                                <li>果库</li>
+                            </ul>
+                        </div>
+                        <div class="dv5">
+                            <ul>
+                                <li>
+                                    <h3>购买攻略</h3>
+                                </li>
+                                <li>美亚海淘教程</li>
+                                <li>日亚海淘教程</li>
+                                <li>海淘转运攻略</li>
+                                <li>kickstarter 众筹购买攻略</li>
+                                <li>indiegogo 众筹购买攻略</li>
+                            </ul>
+                        </div>
+                        <div class="dv6">
+                            <ul>
+                                <li>
+                                    <h3>厂商合作</h3>
+                                </li>
+                                <li><a href="../shangwu.html">关于极果</a></li>
+                                <li><a href="../shangwu.html">联系我们</a></li>
+                        <li>商务合作：BD@jiguo.com</li>
+                        <li>CEO邮箱：CEO@jiguo.com</li>
+                    </ul>
+                </div>
+                <p><span>&copy; 2016 极果版权所有</span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/doT.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/dg_zuire.js"></script>
+</body>
+
+</html>

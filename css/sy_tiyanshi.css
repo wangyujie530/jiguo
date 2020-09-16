@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+section .out {
+  margin: 0 auto;
+  background-color: #f7f7f7;
+}
+section .out .more {
+  width: 112px;
+  height: 150px;
+  margin: 70px auto -50px auto;
+  color: #ff4747;
+}
+section .out .head {
+  margin: 0 auto;
+  width: 100%;
+  height: 174px;
+  background-color: white;
+  text-align: center;
+}
+section .out .head p {
+  font-size: 40px;
+  padding-top: 40px;
+}
+section .out .head ul {
+  width: 330px;
+  height: 82px;
+  margin: 0 auto;
+}
+section .out .head ul .orange {
+  color: #f8572b;
+  border-bottom: 4px solid #f8572b;
+}
+section .out .head ul li {
+  font-size: 17px;
+  color: #919095;
+  width: 165px;
+  height: 38px;
+  float: left;
+  padding-top: 40px;
+}
+section .out .head_b {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  margin: 0 auto;
+  border-top: 2px solid #f2f2f2;
+}
+section .out .head_b ul {
+  width: 660px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 12px;
+  text-align: center;
+}
+section .out .head_b ul .font_color {
+  color: black;
+}
+section .out .head_b ul li {
+  float: left;
+  width: 165px;
+  height: 36px;
+  color: #9ca2a2;
+}
+section .out .body {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+section .out .body ul {
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 224px;
+  height: 320px;
+  float: left;
+  margin: 0px 13px 0px 13px ;
+  text-align: center;
+}
+section .out .body ul li img {
+  width: 220px;
+  height: 130px;
+  border-radius: 6px 6px 0px 0px;
+}
+section .out .body ul li:nth-child(2) {
+  position: relative;
+  top: -134px;
+  left: 140px;
+  width: 82px;
+  height: 22px;
+  background-color: #fbf4ca;
+  color: #cca675;
+  font-size: 14px;
+  border-radius: 0px 6px 0px 6px;
+}
+section .out .body ul li:nth-child(3) {
+  width: 204px;
+  height: 64px;
+  font-size: 17px;
+  font-weight: 600;
+  margin: -15px 10px 0 10px;
+}
+section .out .body ul li:nth-child(4),
+section .out .body ul li:nth-child(5) {
+  font-size: 12px;
+  border-radius: 6px;
+  width: 50px;
+  height: 22px;
+  border: 1px solid #83b76c;
+  color: #83b76c;
+}
+section .out .body ul li:nth-child(4) {
+  position: relative;
+  top: 0;
+  left: 54px;
+  margin-top: 6px;
+}
+section .out .body ul li:nth-child(5) {
+  position: relative;
+  top: -25px;
+  left: 118px;
+}
+section .out .body ul li:nth-child(6) {
+  margin-top: -20px;
+}
+section .out .body ul li:nth-child(6) span {
+  color: #f8563d;
+}
+section .out .body ul li:nth-child(7) {
+  color: #83b76c;
+}

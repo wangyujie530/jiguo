@@ -1,0 +1,196 @@
+.widt {
+  width: 1000px;
+}
+.mart {
+  margin: auto;
+}
+.imgbac {
+  background: url(../img/bg8.jpg) no-repeat;
+}
+.ssa {
+  height: 1732px;
+  overflow: hidden;
+}
+.backss {
+  background: url(img/loading-icon.gif) no-repeat 424px center;
+}
+section {
+  position: relative;
+}
+section .section_biaoti {
+  width: 1000px;
+  margin: auto;
+  height: 134px;
+  font-size: 38px;
+  text-align: center;
+  line-height: 134px;
+}
+section .section_zuixin {
+  width: 342px;
+  margin: auto;
+}
+section .section_zuixin a {
+  padding: 0px 0px  10px 0px;
+  text-align: center;
+  width: 166px;
+  display: inline-block;
+}
+section .section_zuixin .reds_s {
+  border-bottom: 2px solid red;
+}
+section .bads_box {
+  width: 100%;
+  background-color: #f7f7f7;
+}
+section .bads_box .bads_box1 {
+  width: 1000px;
+  margin: auto;
+  padding-top: 20px;
+  position: relative;
+}
+section .bads_box .bads_box1 .bads_boxl {
+  width: 700px;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbac {
+  height: 414px;
+  border-radius: 6px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbac .imgbac_d {
+  height: 120px;
+  background-color: #e9ecf1e3;
+  position: relative;
+  top: 294px;
+  left: 0px;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbac p {
+  padding: 24px;
+  font-size: 14px;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbac span {
+  color: #a1a1a3;
+  display: inline-block;
+  font-size: 12px;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbac .span_ims {
+  width: 20px;
+  height: 20px;
+  padding-left: 24px;
+  background: url(img) no-repeat center center;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbac .span_red {
+  color: #ff5c41;
+  padding-left: 5px;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbac .imgbac_r_img1 {
+  padding-right: 24px;
+  background: url(img/zan.png) no-repeat 0px center;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbac .imgbac_r_img2 {
+  padding-right: 24px;
+  background: url(img/reply.png) no-repeat 0px center;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbac .imgbac_r {
+  padding-left: 15px;
+  float: right;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbacim7 {
+  background: url(../img/bg7.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbacim6 {
+  background: url(../img/bg6.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbacim4 {
+  background: url(../img/bg4.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbacim5 {
+  background: url(../img/bg5.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbacim3 {
+  display: none;
+  background: url(../img/bg3.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbacim2 {
+  display: none;
+  background: url(../img/bg2.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .imgbacim1 {
+  display: none;
+  background: url(../img/bg1.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .aa .imgbac2 {
+  background: url(../img/bg1.jpg);
+}
+section .bads_box .bads_box1 .bads_boxl .aa .imgbacim72 {
+  background: url(../img/bg2.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .aa .imgbacim63 {
+  background: url(../img/bg3.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .aa .imgbacim44 {
+  background: url(../img/bg4.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .aa .imgbacim55 {
+  background: url(../img/bg5.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .aa .imgbacim36 {
+  display: none;
+  background: url(../img/bg6.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .aa .imgbacim27 {
+  display: none;
+  background: url(../img/bg7.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxl .aa .imgbacim18 {
+  display: none;
+  background: url(../img/bg8.jpg) no-repeat;
+  background-size: cover;
+}
+section .bads_box .bads_box1 .bads_boxr {
+  width: 270px;
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+section .bads_box .bads_box1 .bads_boxr .bads_boxr_1li {
+  border-left: 6px solid #ff523f;
+  padding-left: 20px;
+  line-height: 25px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+section .bads_box .bads_box1 .bads_boxr .bads_boxr_h5p {
+  margin-top: 20px;
+}
+section .bads_box .bads_box1 .bads_boxr .bads_boxr_h5p h4 {
+  margin-top: 20px;
+}
+section .bads_box .bads_box1 .bads_boxr .bads_boxr_h5p p {
+  color: #9fa0a4;
+  margin-top: 14px;
+  line-height: 24px;
+  font-size: 14px;
+}
+section .bads_box .bads_box1 .bads_boxr .bads_boxr_gli {
+  margin-top: 20px;
+}
+.imgbac_red {
+  color: #ff523f;
+  line-height: 90px;
+  text-align: center;
+  cursor: pointer;
+}

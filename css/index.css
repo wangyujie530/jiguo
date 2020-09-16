@@ -11,6 +11,9 @@ ul,
 li {
   list-style: none;
 }
+header {
+  border-bottom: 1px solid #d0d0d0;
+}
 header .divs_ {
   position: relative;
   margin: auto;
@@ -32,6 +35,9 @@ header .divs_ ul li {
   float: left;
   text-align: center;
   line-height: 74px;
+}
+header .divs_ ul li a:hover {
+  color: #fa553f;
 }
 header .divs_ ul li .rig {
   color: #fa553f;
@@ -60,4 +66,19 @@ header .divs_ div span {
 }
 header .divs_ div span a {
   color: #f65340;
+}
+.ssa {
+  height: 1732px;
+  overflow: hidden;
+}
+.backss {
+  background: url(img/loading-icon.gif) no-repeat 420px center;
+}
+.imgbac_red {
+  width: 1000px;
+  margin: auto;
+  color: #ff523f;
+  line-height: 90px;
+  text-align: center;
+  cursor: pointer;
 }
