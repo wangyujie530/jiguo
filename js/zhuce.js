@@ -92,6 +92,7 @@ $('.btn_big').click(function () {
                 alert(res);
             }
         })
+        location.href = "index.html";
     } else {
         alert('请完善您的信息');
     }
