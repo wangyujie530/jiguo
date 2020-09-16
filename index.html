@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-09-12 16:00:45
- * @LastEditTime: 2020-09-15 19:31:52
+ * @LastEditTime: 2020-09-16 11:27:45
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \9-2c:\Users\wangyujie\Desktop\极果\index.html
@@ -12,7 +12,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>首页</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/footer_modle.css">
     <link rel="stylesheet" href="./css/indexx.css">
@@ -44,8 +44,8 @@
             <div class="form_left">
             <form action="#" class="form_feu">
                 <div class="form_divs">极果帐号登录</div>
-                <input type="text" placeholder="手机号">
-                <input type="password" placeholder="密码">
+                <input type="text" placeholder="手机号"  id="inpname" required>
+                <input type="password" placeholder="密码" id="passx" required>
                 <div>
                     <input type="checkbox" class="check">下次自动登录
                     <button>登录</button>
@@ -409,8 +409,8 @@
             <a href="#" class="mas"></a>
             <div>
             <span class="rend">{{=value.price}}</span>
-            <a href="#" class="a1ss_box3">{{=value.like}}</a>
-            <a href="#" class="a1ss2_box3">{{=value.words}}</a>
+            <a  class="a1ss_box3">{{=value.like}}</a>
+            <a  class="a1ss2_box3">{{=value.words}}</a>
             </div>
          </li>
         {{~}}

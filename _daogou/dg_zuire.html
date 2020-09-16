@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>导购</title>
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/footer_modle.css">
     <link rel="stylesheet" href="../css/dg_zuire.css">
@@ -35,8 +35,8 @@
             <div class="head">
                 <p>导购清单</p>
                 <ul>
-                    <li>最新</li>
-                    <li class="orange">最热</li>
+                    <li>最新 <a href="./dg_zuixin.html" style="display: inline-block;width: 100%;height: 100%;"></a></li>
+                    <li class="orange">最热 <a href="./dg_zuire.html" style="display: inline-block;width: 100%;height: 100%;"></a></li>
                 </ul>
             </div>
             <div class="body">
@@ -62,11 +62,11 @@
                         <li>
                             <img src="{{=value.img}}" alt="">
                         </li>
-                        <li>{{=value.text}}</li>
+                        <li>{{=value.text}} <a href="./dg_xiangqing.html" style="display: inline-block;width: 100%;height: 100%;"></a></li>
                         <li>&nbsp;&nbsp;&nbsp;&nbsp;{{=value.like}}</li>
                         <li>&nbsp;&nbsp;&nbsp;&nbsp;{{=value.words}}</li>
                     </ul>
-                    <p class="p_1"></p>
+                    <p class="p_1"> </p>
                     <p class="p_2"></p>
                 </div>
                 {{~}}

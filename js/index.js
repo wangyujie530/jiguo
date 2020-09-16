@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-14 10:31:58
- * @LastEditTime: 2020-09-14 20:13:36
+ * @LastEditTime: 2020-09-16 11:05:35
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \9-2c:\Users\wangyujie\Desktop\极果\js\index.js
@@ -71,3 +71,45 @@ $('.section_dnh').animate({
     $('.chacha').on('click', function () {
         $('.hidden').hide();
     })
+//     // 登录
+ var tel_patt = /^1[3578]\d{9}$/;
+ var pass = /^\w{6,10}$/;
+ $('#inpname').blur(function(){
+     if (tel_patt.test($(this).val())){
+         $('#passx').blur(function () {
+             if (!pass.test($(this).val())) {
+                alert('请输入正确的密码')
+             }else{
+                 $.ajax({
+                     url: 'http://192.168.1.47:3000/users',
+                     type: "post",
+                     data: {
+                         type: 'login',
+                         phone: $('#inpname').val(),
+                         pass: $('#passx').val()
+                     },
+                     success(res) {
+                         alert(res);
+                     }
+                 })
+             }
+         })
+     }else{
+         alert('请输入正确的手机号');
+     }
+ })
+//  $('.form_feu').on('submit', function () {
+//      $.ajax({
+//          url: 'http://192.168.1.47:3000/users',
+//          type: "post",
+//          data: {
+//              type: 'login',
+//              phone: $('#inpname').val(),
+//              pass: $('#passx').val()
+//          },
+//          success(res) {
+//              alert(res);
+//          }
+//      })
+
+//  })
