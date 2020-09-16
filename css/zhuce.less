@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+
+
+section{
+    //宽高变量
+    .WH(@W:100%,@H:100%){
+        width: @W;
+        height: @H;
+    }
+    //背景颜色
+    .BAK(@bak){
+        background-color: @bak;
+    }
+    //定位
+    .PR(@rt:0px,@rl:0px){
+        position: relative;
+        top: @rt;
+        left: @rl;
+    }
+    .PA(@at:0px,@al:0px){
+        position: absolute;
+        top: @at;
+        left: @al;
+    }
+    .TL(@ft:0px,@fl:0px){
+        top: @ft;
+        left: @fl;
+    }
+
+
+//正式css
+.body_all{
+    .BAK(#f7f7f7);
+    padding: 40px 0 50px 0;
+    .body_out{
+        border: 1px solid #dddddd;
+        border-radius: 10px;
+        .WH(1000px,700px);
+        margin: 0 auto;
+        .BAK(white);
+        .leftop{
+            .PR(30px,0);
+            .WH(100px,20px);
+            border-left: 6px solid #e48c76;
+            padding-left: 22px;
+            font-size: 20px;
+        }
+        .body_in{
+            margin: 50px auto;
+            .WH(400px,850px);
+            input{
+                border: none;
+                outline: none;
+                .WH(400px,50px);
+                margin-top: 25px;
+                border-radius: 10px;
+                .BAK(#f7f7f7);
+                padding-left: 14px;
+                color: #5c5c5c;
+                font-size: 17px;
+            }
+            button{
+                outline: none;
+            }
+            .inp_2,
+            .inp_3{
+                .WH(260px,50px);
+            }
+            .inp_3{
+                margin-top: 25px ;
+            }
+            .btn_small{
+                border: 1px solid #a5a5a5;
+                border-radius: 10px;
+                .WH(112px,50px);
+                .PR(1px,20px);
+                font-size: 15px;
+                color: #aaaaaa;
+                .BAK(white);
+            }
+            .btn_big{
+                border-radius: 10px;
+                border: none;
+                margin-top: 25px;
+                .BAK(#fe5341);
+                .WH(414px,50px);
+                font-size: 22px;
+                color: white;
+            }
+            .number{
+                .WH(120px,34px);
+                .PR(-427px,288px);
+                .XY1,.XY2,.XY3,.XY4{
+                    .WH(30px,34px);
+                    float: left;
+                }
+                .XY1{
+                    font-size: 28px;
+                    color: #484f48;
+                    transform: rotate(-25deg);
+                }
+                .XY2{
+                    font-size: 30px;
+                    color: #898a7a;
+                }
+                .XY3{
+                    font-size: 30px;
+                    color: #275c62;
+                    transform: rotate(-10deg);
+                }
+                .XY4{
+                    font-size: 30px;
+                    color: #8c7968;
+                    transform: rotate(-7deg);
+                }
+            }
+            .dv_span{
+                .PR(-534px,420px);
+                .WH(180px,425px);
+                span:nth-child(1){
+                    .PA(16px,0);
+                }
+                span:nth-child(2){
+                    .PA(88px,0);
+                }
+                span:nth-child(3){
+                    .PA(166px,0);
+                }
+                span:nth-child(4){
+                    .PA(240px,0);
+                }
+                span:nth-child(5){
+                    .PA(316px,0);
+                }
+                span:nth-child(6){
+                    .PA(392px,0);
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+}

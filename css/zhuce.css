@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+section .body_all {
+  background-color: #f7f7f7;
+  padding: 40px 0 50px 0;
+}
+section .body_all .body_out {
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  width: 1000px;
+  height: 700px;
+  margin: 0 auto;
+  background-color: white;
+}
+section .body_all .body_out .leftop {
+  position: relative;
+  top: 30px;
+  left: 0;
+  width: 100px;
+  height: 20px;
+  border-left: 6px solid #e48c76;
+  padding-left: 22px;
+  font-size: 20px;
+}
+section .body_all .body_out .body_in {
+  margin: 50px auto;
+  width: 400px;
+  height: 850px;
+}
+section .body_all .body_out .body_in input {
+  border: none;
+  outline: none;
+  width: 400px;
+  height: 50px;
+  margin-top: 25px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  padding-left: 14px;
+  color: #5c5c5c;
+  font-size: 17px;
+}
+section .body_all .body_out .body_in button {
+  outline: none;
+}
+section .body_all .body_out .body_in .inp_2,
+section .body_all .body_out .body_in .inp_3 {
+  width: 260px;
+  height: 50px;
+}
+section .body_all .body_out .body_in .inp_3 {
+  margin-top: 25px ;
+}
+section .body_all .body_out .body_in .btn_small {
+  border: 1px solid #a5a5a5;
+  border-radius: 10px;
+  width: 112px;
+  height: 50px;
+  position: relative;
+  top: 1px;
+  left: 20px;
+  font-size: 15px;
+  color: #aaaaaa;
+  background-color: white;
+}
+section .body_all .body_out .body_in .btn_big {
+  border-radius: 10px;
+  border: none;
+  margin-top: 25px;
+  background-color: #fe5341;
+  width: 414px;
+  height: 50px;
+  font-size: 22px;
+  color: white;
+}
+section .body_all .body_out .body_in .number {
+  width: 120px;
+  height: 34px;
+  position: relative;
+  top: -427px;
+  left: 288px;
+}
+section .body_all .body_out .body_in .number .XY1,
+section .body_all .body_out .body_in .number .XY2,
+section .body_all .body_out .body_in .number .XY3,
+section .body_all .body_out .body_in .number .XY4 {
+  width: 30px;
+  height: 34px;
+  float: left;
+}
+section .body_all .body_out .body_in .number .XY1 {
+  font-size: 28px;
+  color: #484f48;
+  transform: rotate(-25deg);
+}
+section .body_all .body_out .body_in .number .XY2 {
+  font-size: 30px;
+  color: #898a7a;
+}
+section .body_all .body_out .body_in .number .XY3 {
+  font-size: 30px;
+  color: #275c62;
+  transform: rotate(-10deg);
+}
+section .body_all .body_out .body_in .number .XY4 {
+  font-size: 30px;
+  color: #8c7968;
+  transform: rotate(-7deg);
+}
+section .body_all .body_out .body_in .dv_span {
+  position: relative;
+  top: -534px;
+  left: 420px;
+  width: 180px;
+  height: 425px;
+}
+section .body_all .body_out .body_in .dv_span span:nth-child(1) {
+  position: absolute;
+  top: 16px;
+  left: 0;
+}
+section .body_all .body_out .body_in .dv_span span:nth-child(2) {
+  position: absolute;
+  top: 88px;
+  left: 0;
+}
+section .body_all .body_out .body_in .dv_span span:nth-child(3) {
+  position: absolute;
+  top: 166px;
+  left: 0;
+}
+section .body_all .body_out .body_in .dv_span span:nth-child(4) {
+  position: absolute;
+  top: 240px;
+  left: 0;
+}
+section .body_all .body_out .body_in .dv_span span:nth-child(5) {
+  position: absolute;
+  top: 316px;
+  left: 0;
+}
+section .body_all .body_out .body_in .dv_span span:nth-child(6) {
+  position: absolute;
+  top: 392px;
+  left: 0;
+}
