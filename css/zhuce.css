@@ -22,9 +22,10 @@ section .body_all .body_out .leftop {
   top: 30px;
   left: 0;
   width: 100px;
-  height: px;
+  height: 20px;
   border-left: 6px solid #e48c76;
   padding-left: 22px;
+  font-size: 20px;
 }
 section .body_all .body_out .body_in {
   margin: 50px auto;
@@ -32,23 +33,27 @@ section .body_all .body_out .body_in {
   height: 850px;
 }
 section .body_all .body_out .body_in input {
-  border: 1px solid #efefef;
+  border: none;
+  outline: none;
   width: 400px;
   height: 50px;
   margin-top: 25px;
   border-radius: 10px;
   background-color: #f7f7f7;
-  padding-left: 12px;
-  color: #aaaaaa;
+  padding-left: 14px;
+  color: #5c5c5c;
   font-size: 17px;
 }
-section .body_all .body_out .body_in .inpu_2,
-section .body_all .body_out .body_in .inpu_3 {
+section .body_all .body_out .body_in button {
+  outline: none;
+}
+section .body_all .body_out .body_in .inp_2,
+section .body_all .body_out .body_in .inp_3 {
   width: 260px;
   height: 50px;
 }
-section .body_all .body_out .body_in .inpu_3 {
-  margin-top: 25px !important;
+section .body_all .body_out .body_in .inp_3 {
+  margin-top: 25px ;
 }
 section .body_all .body_out .body_in .btn_small {
   border: 1px solid #a5a5a5;
@@ -105,4 +110,41 @@ section .body_all .body_out .body_in .number .XY4 {
   font-size: 30px;
   color: #8c7968;
   transform: rotate(-7deg);
+}
+section .body_all .body_out .body_in .dv_span {
+  position: relative;
+  top: -534px;
+  left: 420px;
+  width: 180px;
+  height: 425px;
+}
+section .body_all .body_out .body_in .dv_span span:nth-child(1) {
+  position: absolute;
+  top: 16px;
+  left: 0;
+}
+section .body_all .body_out .body_in .dv_span span:nth-child(2) {
+  position: absolute;
+  top: 88px;
+  left: 0;
+}
+section .body_all .body_out .body_in .dv_span span:nth-child(3) {
+  position: absolute;
+  top: 166px;
+  left: 0;
+}
+section .body_all .body_out .body_in .dv_span span:nth-child(4) {
+  position: absolute;
+  top: 240px;
+  left: 0;
+}
+section .body_all .body_out .body_in .dv_span span:nth-child(5) {
+  position: absolute;
+  top: 316px;
+  left: 0;
+}
+section .body_all .body_out .body_in .dv_span span:nth-child(6) {
+  position: absolute;
+  top: 392px;
+  left: 0;
 }
